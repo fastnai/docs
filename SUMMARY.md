@@ -1,12 +1,15 @@
 # Table of contents
 
-## Customer-Facing Integrations
+## Getting started
 
 * [About Fastn](README.md)
   * [How Fastn Works](customer-facing-integrations/about-fastn/how-fastn-works.md)
   * [Your First Automation](customer-facing-integrations/about-fastn/your-first-automation.md)
+
+## Embedded integrations
+
 * [Embedded Integrations](customer-facing-integrations/embedded-integrations/README.md)
-  * [Getting Started with Fastn’s Embedded Experience](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/README.md)
+  * [Getting Started with Fastn's Embedded Experience](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/README.md)
     * [Building and Configuring Widgets in Fastn](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/building-and-configuring-widgets-in-fastn.md)
     * [Previewing and Integrating Widgets](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md)
     * [Custom Webhooks: Automatic Triggers](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/custom-webhooks-automatic-triggers.md)
@@ -16,7 +19,7 @@
       * [Releases](customer-facing-integrations/embedded-integrations/workspace-management/deployment/releases.md)
       * [Pipelines](customer-facing-integrations/embedded-integrations/workspace-management/deployment/pipelines.md)
 
-## UCL - Unified Context Layer
+## AI agent integrations (UCL)
 
 * [Getting Started](ucl-unified-context-layer/getting-started/README.md)
   * [About Unified Context Layer](ucl-unified-context-layer/getting-started/about-unified-context-layer/README.md)
@@ -68,7 +71,7 @@
     * [Flow Step Settings](flows/flow-setup-essentials/flow-settings/flow-step-settings.md)
     * [Using Templates](flows/flow-setup-essentials/flow-settings/using-templates.md)
 
-## Resources
+## Tutorials & resources
 
 * [Library](resources/library/README.md)
   * [Tutorials](resources/library/tutorials/README.md)
