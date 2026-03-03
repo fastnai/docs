@@ -33,6 +33,7 @@
 
 ## Flows
 
+* [Build Your First Flow](flows/build-your-first-flow.md)
 * [Flow Setup Essentials](flows/flow-setup-essentials/README.md)
   * [Designing a Flow](flows/flow-setup-essentials/designing-a-flow/README.md)
     * [Connectors](flows/flow-setup-essentials/designing-a-flow/connectors.md)
