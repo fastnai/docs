@@ -17,7 +17,7 @@ You can add Connectors in your **Flows** at any required step from the right nav
 After adding the connector as a flow component:
 
 * Select the **Group Type** of connectors, the **Connector** i.e, Slack, and corresponding **Endpoint**. Click on **Next** to proceed.
-* In the **Connect** section, login to Slack (your Connector app) using a fixed connection or allow multiple users to create connections dynamically via Widgets.
+* In the **Connect** section, [login to Slack](setting-up-connector-authentication.md) (your Connector app) using a fixed connection or allow multiple users to create connections dynamically via Widgets.
 * Move to the **Configure** section to add the channel ID and message text.
 
 {% hint style="info" %}

@@ -14,7 +14,7 @@ For example, for the Google Cloud Storage Connector, a selected endpoint can be 
 
 <figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FkNAc16eApX7KPQ0mhVTb%252Fimage.png%3Falt%3Dmedia%26token%3Deeabd94a-ef02-484a-94d0-2f7d9abaa11c&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=5d777ac3&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-* **Configure:** Fill in the required fields or map from previous steps.
+* **Configure:** Fill in the required fields or [map from previous steps](data-mapping-in-flows.md).
 
 In this example,
 

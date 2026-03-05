@@ -12,7 +12,7 @@ Connectors in Fastn let you connect your flows with external apps, APIs, and dat
 
 ## Related topics
 
-* [Setting up Connector Authentication](setting-up-connector-authentication.md) — configure OAuth, API Key, Bearer Token, or Custom Input for your connectors
+* [Setting up Connector Authentication](setting-up-connector-authentication.md) — configure OAuth, API key, Bearer Token, or Custom Input for your connectors
 * [Connectors (Flow Component)](../designing-a-flow/connectors.md) — use connectors as steps inside your flows
 * [Data Mapping in Flows](../designing-a-flow/data-mapping-in-flows.md#connectors) — map connector outputs to other flow steps
 * [How to Manage Multiple App Connections Together](../../../resources/library/tutorials/flow-customization-and-operations/how-to-manage-multiple-app-connections-together.md) — tutorial on managing grouped connections

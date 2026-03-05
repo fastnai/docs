@@ -49,7 +49,7 @@ CREATE TABLE slack_messages (
 );
 ```
 
-Now, in your flow, after receiving a message from Slack via a trigger like **On App Event** or **On Chat Message**, add a **Database element** and write an SQL query like this:
+Now, in your flow, after receiving a message from Slack via a [trigger](../designing-a-flow/trigger.md) like **On App Event** or **On Chat Message**, add a **Database element** and write an SQL query like this:
 
 ```sql
 INSERT INTO slack_messages (channel_name, user_name, message, timestamp)
