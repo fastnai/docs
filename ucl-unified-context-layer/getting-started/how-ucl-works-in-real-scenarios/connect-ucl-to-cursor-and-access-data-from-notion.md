@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this guide, you’ll learn how to connect a UCL deployment to Cursor and use
+  In this guide, you'll learn how to connect a UCL deployment to Cursor and use
   its AI assistant to retrieve summary from Notion for a specific meeting; all
   without writing any integration code.
 ---
@@ -66,7 +66,7 @@ Checking the **Multi Tenant** option will enable you to embed connectors and act
 <figure><img src="../../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Make sure you’ve selected an **agent;** it's not auto-set.
+Make sure you've selected an **agent;** it's not auto-set.
 {% endhint %}
 
 *   In the assistant, it will ask for your Notion database ID after you have given a command like:
@@ -78,3 +78,13 @@ Make sure you’ve selected an **agent;** it's not auto-set.
 * The meeting summary should appear directly in your AI plane, ready for review or further processing.
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3iSr2Tx8FvvuoLPncziH%2Fuploads%2Fln6CvLH9MXpQ58c5A8Qw%2F20250618-2103-01.6498607.mp4?alt=media&token=9d4a650a-4d6f-4cc1-bc2a-83a10b8eebe8" %}
+
+---
+
+## Related topics
+
+* [Create a Google Doc and share it to Slack](create-a-google-doc-and-share-it-to-slack-using-ucl.md) — automate document creation and sharing across Google Docs and Slack
+* [Connect UCL for task assignment in Jira](connect-ucl-for-task-assignment-in-jira.md) — assign and manage Jira tasks using natural language via UCL
+* [Getting started with UCL](../) — workspace setup and app connection walkthrough
+* [Embedding UCL onto your AI agent](../about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md) — integrate UCL into your own product or AI agent codebase
+* [Defining an MCP server](../about-unified-context-layer/defining-an-mcp-server.md) — register a custom MCP server as a tool in your UCL workspace

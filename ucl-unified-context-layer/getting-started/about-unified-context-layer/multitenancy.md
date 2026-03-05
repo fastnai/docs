@@ -24,7 +24,7 @@ Imagine Sarah, June, and Emily all work at the same company and share the same S
 
 Each user operates within their own **user context** \[tenant ID], even though they share the same Space ID. For example, when Sarah logs in and accesses integrations, UCL recognizes her user identity and:
 
-* Displays only **Sarah’s selected tools** (e.g., Slack, HubSpot, Salesforce).
+* Displays only **Sarah's selected tools** (e.g., Slack, HubSpot, Salesforce).
 * Uses only her data and configurations when performing actions.
 
 Similarly, June and Emily see and interact only with their own tools and configurations, even if some tools overlap in the space.
@@ -45,9 +45,9 @@ This setup ensures everyone shares the same tool infrastructure but operates ind
 
 Despite all users operating in the same app and sharing the same Space ID, UCL keeps its tools, data, and actions strictly isolated:
 
-* Sarah cannot see or affect June’s integrations.
-* June cannot send messages using Emily’s Gmail setup.
-* Each user’s data and configurations remain private and secure.
+* Sarah cannot see or affect June's integrations.
+* June cannot send messages using Emily's Gmail setup.
+* Each user's data and configurations remain private and secure.
 
 ### **4. Platform Handles Complexity Automatically**
 
@@ -74,3 +74,12 @@ UCL's multitenancy architecture delivers several critical advantages that enhanc
 The multitenant architecture of UCL consists of a centralized server that handles requests for all users. Each user's data, configuration, and authentication tokens are stored separately within secure workspaces. Tools and actions are dynamically mapped based on user context, allowing seamless routing of operations. The architecture supports horizontal scaling to meet increasing demand while preserving user isolation and performance consistency.
 
 <figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [About Unified Context Layer](./) — overview of UCL's architecture and capabilities
+* [Embedding UCL onto your AI agent](embedding-ucl-onto-your-ai-agent.md) — integrate UCL into your product with multi-tenant support
+* [UCL security and compliance](monitoring/ucl-security-and-compliance.md) — enterprise-grade security controls and compliance readiness
+* [Flow settings](../../../flows/flow-setup-essentials/flow-settings/) — configure multi-tenancy and other settings within Fastn flows

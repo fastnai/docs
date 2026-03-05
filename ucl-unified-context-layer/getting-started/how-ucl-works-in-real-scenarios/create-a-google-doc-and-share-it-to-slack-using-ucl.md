@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this guide, you’ll create a Google Doc with some content and automatically
-  share it to a Slack channel. We’ll use Fastn to connect the two apps and make
+  In this guide, you'll create a Google Doc with some content and automatically
+  share it to a Slack channel. We'll use Fastn to connect the two apps and make
   the workflow run in just a few steps.
 ---
 
@@ -53,3 +53,13 @@ Once successful, you will see a success message in the assistant, and the docume
 <figure><img src="../../../.gitbook/assets/image (604).png" alt=""><figcaption></figcaption></figure>
 
 > This setup allows you to automate and streamline document creation and sharing it across different platforms using natural language, making workflows faster and more efficient.
+
+---
+
+## Related topics
+
+* [Connect UCL for task assignment in Jira](connect-ucl-for-task-assignment-in-jira.md) — use natural language to assign and update Jira tasks via UCL
+* [Connect UCL to Cursor and access data from Notion](connect-ucl-to-cursor-and-access-data-from-notion.md) — retrieve Notion meeting summaries from Cursor's AI assistant
+* [Getting started with UCL](../) — workspace setup and app connection walkthrough
+* [Creating a custom tool](../about-unified-context-layer/creating-a-custom-tool.md) — extend UCL with your own tool groups and actions
+* [Defining an MCP server](../about-unified-context-layer/defining-an-mcp-server.md) — register a custom MCP server as a tool in your UCL workspace

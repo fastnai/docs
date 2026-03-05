@@ -99,7 +99,7 @@ You will now see your MCP server details.&#x20;
 <figure><img src="../../../.gitbook/assets/image (642).png" alt=""><figcaption></figcaption></figure>
 
 * Click **Test Connection**.
-* If successful, you will see a notification: _“Connection Successful. Ready to complete setup.”_
+* If successful, you will see a notification: _"Connection Successful. Ready to complete setup."_
 
 ### Step 6: Complete Setup
 
@@ -112,3 +112,12 @@ You will now see your MCP server details.&#x20;
 <figure><img src="../../../.gitbook/assets/image (644).png" alt=""><figcaption></figcaption></figure>
 
 > You can now use it within your UCL workspace.
+
+---
+
+## Related topics
+
+* [Embedding UCL onto your AI agent](embedding-ucl-onto-your-ai-agent.md) — integrate UCL into your product or AI agent's codebase
+* [Creating a custom tool](creating-a-custom-tool.md) — build your own tool groups using natural language prompts
+* [About Unified Context Layer](./) — understand UCL's architecture, multitenancy, and security model
+* [How UCL works in real scenarios](../how-ucl-works-in-real-scenarios/) — practical examples showing UCL connected to real AI clients
