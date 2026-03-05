@@ -44,6 +44,16 @@ The **File Transfer Protocol** component allows you to upload, download, list, d
 
 * Transfer files securely across systems using **FTP**, **FTPS**, or **SFTP**.
 * Perform multiple operations like **upload, download, or list** files in one flow.
-* Enable **manual credentials** for flexible setup when predefined accounts aren’t available.
-* Works seamlessly in **tenant-based environments**, each tenant’s FTP account is isolated and managed securely.
+* Enable **manual credentials** for flexible setup when predefined accounts aren't available.
+* Works seamlessly in **tenant-based environments**, each tenant's FTP account is isolated and managed securely.
 * Solves the limitation where FTP connections cannot list files directly by adding a **List operation** for better file visibility.
+
+---
+
+## Related topics
+
+* [Download File](download-file.md) — fetch files from URLs when FTP is not required
+* [Connectors](connectors.md) — use cloud storage connectors (Google Cloud Storage, AWS S3) as alternatives to FTP
+* [Data Mapping in Flows](data-mapping-in-flows.md) — map file paths and outputs between FTP and other flow steps
+* [Loop](loop.md) — iterate over a list of files retrieved via FTP
+* [Data Migrations Tutorials](../../../resources/library/tutorials/data-migrations/) — end-to-end migration examples involving file transfers

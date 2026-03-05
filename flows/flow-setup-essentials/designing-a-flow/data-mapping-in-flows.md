@@ -463,7 +463,7 @@ When you build flows in Fastn, each component can both **take mapped inputs from
 
 ### **Connectors**
 
-You can map values from a connector step’s output into another step, or pass dynamic values from earlier steps _into_ a connector.
+You can map values from a connector step's output into another step, or pass dynamic values from earlier steps _into_ a connector.
 
 #### **Example (Mapping into Gmail)**
 
@@ -679,3 +679,17 @@ This error often arises due to issues with data mapping and type conversion. Her
 3. **Default Value Check**: If a field's default value is empty, consider setting it to `null`.
 4. **Value Escaping**: Properly escape values that contain special characters like `"` or `/` using the advanced action feature.
 5. **Advance Action Inputs**: Review any advanced actions in the step to ensure that input values are not passing incorrect data.
+
+---
+
+## Related topics
+
+* [Data Mapper](data-mapper.md) — the flow component that applies data transformations
+* [Connectors](connectors.md) — connect to external apps whose outputs you map between steps
+* [Database](database.md) — map values into SQL queries and use query results downstream
+* [Variables](variables.md) — define reusable values referenced in data mappings
+* [Loop](loop.md) — iterate over mapped data lists
+* [Switch](switch.md) — route flow paths based on mapped conditions
+* [Custom Code](custom-code.md) — access mapped data programmatically in JavaScript, Python, or C#
+* [Flow Response: Success & Error](flow-response-success-and-error.md) — structure the final output of your flow
+* [FAQs](../../../resources/library/faqs.md) — common questions about flow design and data mapping

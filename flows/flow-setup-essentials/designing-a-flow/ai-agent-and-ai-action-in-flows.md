@@ -17,7 +17,7 @@ description: >-
 <figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
 * Click on the **"+"** symbol within your Flow canvas.
-* In the component search bar, type **“AI Agent”** and select it.
+* In the component search bar, type **"AI Agent"** and select it.
 * In the AI model section, select an AI model of your choice.
 * Next, from the **model dropdown**, choose the AI model best suited for your use case (e.g., **Gemini 2.0**).
 * Under the **Prompt** section, define the input the agent should use, for example:\
@@ -57,10 +57,10 @@ Inside each connected tool, you can add or delete individual parameters and map 
 * Type the prompt you want to execute.
 
 ```
-“Get my last 5 contacts from Intercom”
+"Get my last 5 contacts from Intercom"
 ```
 
-* The chatbot will process your request. You’ll receive the result showing the contacts along with details such as when each contact was created.
+* The chatbot will process your request. You'll receive the result showing the contacts along with details such as when each contact was created.
 
 
 
@@ -113,3 +113,13 @@ You can deploy the flow to any of your selected environments to go LIVE.
 <figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Connectors](connectors.md) — connect external apps as tools for your AI Agent
+* [Data Mapping in Flows](data-mapping-in-flows.md) — map AI Agent outputs to other flow steps
+* [Summarization Chain](summarization-chain.md) — condense large documents before or after AI processing
+* [Flow Setup Essentials](../) — learn about the On Chat Message trigger type for AI-powered chatbots
+* [Embedding UCL onto Your AI Agent](../../../ucl-unified-context-layer/getting-started/about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md) — integrate the Unified Context Layer with your AI agent

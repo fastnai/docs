@@ -25,7 +25,7 @@ You want to send a daily summary of the **5 most recent Zendesk support tickets*
 ### **Step 1: Add the Aggregate Component**
 
 * Insert the **Aggregate** component after the step that returns a list of items.
-* In this example, add Aggregate **after the “Get Tickets” step from Zendesk**.
+* In this example, add Aggregate **after the "Get Tickets" step from Zendesk**.
 
 <figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,3 +86,13 @@ If you select **Individual Fields**, you can manually specify which fields to in
 * The Aggregate component returns a smaller refined list, e.g., the **5 most recent tickets**.
 
 > You can now use this aggregated output in the next steps, like formatting, generating a summary, or posting to Slack.
+
+---
+
+## Related topics
+
+* [Filter](filter.md) — narrow records before aggregating
+* [Limit](limit.md) — restrict how many records feed into the aggregation
+* [Merge](merge.md) — combine aggregated results from multiple branches
+* [Connectors](../connectors.md) — send aggregated data to Slack, email, or other services
+* [Data Mapping in Flows](../data-mapping-in-flows.md) — map aggregated output into the next flow step

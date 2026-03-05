@@ -17,3 +17,13 @@ It takes the flow data as input, extracts the `steps` object (which contains out
 {% hint style="info" %}
 To make this easier, the AI agent in the top right corner provides smart suggestions about the code.
 {% endhint %}
+
+---
+
+## Related topics
+
+* [Data Mapping in Flows](data-mapping-in-flows.md#custom-code-json) — access mapped values from previous steps inside custom code
+* [Data Mapper](data-mapper.md) — use the visual mapper for simpler transformations before resorting to code
+* [Converter](converter.md) — convert data formats without writing code
+* [Variables](variables.md) — define values that your custom code can read and update
+* [AI Agent & AI Action in Flows](ai-agent-and-ai-action-in-flows.md) — use AI models for intelligent processing alongside custom logic

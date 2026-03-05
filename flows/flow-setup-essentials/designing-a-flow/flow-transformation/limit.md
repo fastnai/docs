@@ -14,7 +14,7 @@ This is especially useful when you only want to process a subset of records inst
 
 ### **Use Case Example**
 
-Suppose you are building a flow where you fetch a Zendesk ticket and want to notify only a limited number of collaborators about an update. Zendesk’s **Get Ticket** action returns a list of `collaborator_ids`, but you may only want to process the first 5 collaborators.
+Suppose you are building a flow where you fetch a Zendesk ticket and want to notify only a limited number of collaborators about an update. Zendesk's **Get Ticket** action returns a list of `collaborator_ids`, but you may only want to process the first 5 collaborators.
 
 This is where **Limit** helps.\
 You can narrow the list, e.g., to the first 5 collaborator IDs, before sending them to further steps such as **email**, **Slack**, or additional logic.
@@ -52,3 +52,13 @@ You can narrow the list, e.g., to the first 5 collaborator IDs, before sending t
 * To test the step, use the **Dashboard** button in the top-right corner.
 
 <figure><img src="../../../../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Filter](filter.md) — narrow data by condition before or after limiting
+* [Aggregate](aggregate.md) — summarize limited records into totals or counts
+* [Loop](../loop.md) — iterate over the limited set of records
+* [How to Set Up Pagination in Your Flow](../../../../resources/library/tutorials/flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — tutorial on paginating through large datasets
+* [Data Mapping in Flows](../data-mapping-in-flows.md) — map limited outputs to the next flow step

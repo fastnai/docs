@@ -21,7 +21,7 @@ Use the Merge component when you need to:
 <figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 * Give it a clear and descriptive name based on what you're merging\
-  &#xNAN;_(e.g., “MergeOutputandTokens”)_
+  &#xNAN;_(e.g., "MergeOutputandTokens")_
 
 This helps in identifying the merged output in the next steps.
 
@@ -89,3 +89,13 @@ Once your merge is complete:
 <figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 > This will allow you to view both merged values clearly in the final output of the flow.
+
+---
+
+## Related topics
+
+* [Split](split.md) — divide data into branches that you later merge back together
+* [Aggregate](aggregate.md) — summarize merged data into totals or counts
+* [Switch](../switch.md) — merge outputs from different conditional branches
+* [Flow Response: Success & Error](../flow-response-success-and-error.md) — return merged data as the final flow output
+* [Data Mapping in Flows](../data-mapping-in-flows.md) — map merged outputs to downstream steps

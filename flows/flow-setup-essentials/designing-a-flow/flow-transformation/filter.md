@@ -13,7 +13,7 @@ The **Filter** component allows you to control which records move forward in a f
 Use the Filter when you need to:
 
 * Pass only relevant records to the next step
-* Remove data that doesn’t meet your conditions
+* Remove data that doesn't meet your conditions
 * Clean, refine, or segment data before processing
 
 ### **How to Configure the Filter Component?**
@@ -81,3 +81,13 @@ The filtered result becomes the output of the Filter step and can be used in the
 * Test your filter after configuring it.
 * Keep condition values accurate.
 * Rename the Filter step for clarity (e.g., _Filter: Target Slack Channel_).
+
+---
+
+## Related topics
+
+* [Limit](limit.md) — restrict the number of records after filtering
+* [Split](split.md) — divide filtered data into multiple branches
+* [Aggregate](aggregate.md) — compute totals or counts from filtered results
+* [Loop](../loop.md) — iterate over filtered records one at a time
+* [Data Mapping in Flows](../data-mapping-in-flows.md) — map filter outputs to downstream flow steps
