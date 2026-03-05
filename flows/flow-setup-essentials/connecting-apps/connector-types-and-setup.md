@@ -70,3 +70,13 @@ These connectors can be defined at the organization level, allowing any member w
 {% hint style="info" %}
 Similar to Workspace connectors, you can define group connectors and then manage different categories of connectors within them.&#x20;
 {% endhint %}
+
+---
+
+## Related topics
+
+* [Managing & Using Connectors](managing-and-using-connectors.md) — add, manage, and use connectors in your flows
+* [Setting up Connector Authentication](setting-up-connector-authentication.md) — configure OAuth, API Key, or Bearer Token for your connectors
+* [Connectors (Flow Component)](../designing-a-flow/connectors.md) — use connectors as steps inside a flow
+* [Data Mapping in Flows](../designing-a-flow/data-mapping-in-flows.md#connectors) — map connector outputs to downstream steps
+* [How to Customize Your Authentication Flow](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md) — tutorial on customizing the connector authentication experience

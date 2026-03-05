@@ -55,7 +55,7 @@ Fastn supports **multi-tenant architecture**, making it easy to build and manage
 
 ### What is a Tenant?
 
-A **tenant** represents an isolated environment for a particular user within your workspace. It helps separate data, configurations, credentials, and workflows for different customers, business units, or systems. Fastn’s built-in multi-tenancy ensures complete **data isolation and secure execution** for each tenant.
+A **tenant** represents an isolated environment for a particular user within your workspace. It helps separate data, configurations, credentials, and workflows for different customers, business units, or systems. Fastn's built-in multi-tenancy ensures complete **data isolation and secure execution** for each tenant.
 
 <figure><img src="../../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ You can manage all your tenants from the **Tenants** section in the left sidebar
 #### Creating a Tenant Secret
 
 1. Click on an existing tenant in the list.
-2. Select **‘Create Secret’** to add credentials like API keys or tokens.
+2. Select **'Create Secret'** to add credentials like API keys or tokens.
 3. These secrets are securely scoped to the tenant, ensuring access is restricted to flows running within that tenant's context.
 
 
@@ -80,3 +80,11 @@ You can manage all your tenants from the **Tenants** section in the left sidebar
 Learn more about multi-tenancy in Fastn:
 
 {% embed url="https://docs.fastn.ai/multitenancy" %}
+
+---
+
+## Related topics
+
+* [Analytics and Monitoring Dashboard](analytics-and-monitoring-dashboard.md) — track flow performance, connector health, and tenant activity in real time
+* [Embedded Integrations](../) — overview of customer-facing integrations and how to deliver them in your app
+* [Connecting Apps](../../../flows/flow-setup-essentials/connecting-apps/) — authenticate and connect third-party apps for use in your workspace flows

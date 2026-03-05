@@ -50,7 +50,7 @@ Suppose you want to send an email automatically whenever an API request is made 
 
 * **Save & Test Run:** Once saved, you can send a test API request. Fastn will process it and automatically trigger the Gmail action.
 
-> When you check the inbox for the recipient email, you’ll see the email with the subject **“Test”** and the body **“This is a test email from Fastn.ai”**.
+> When you check the inbox for the recipient email, you'll see the email with the subject **"Test"** and the body **"This is a test email from Fastn.ai"**.
 
 <figure><img src="../../.gitbook/assets/image (582).png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +64,7 @@ Let your flow respond to what's happening in your favorite apps; like Salesforce
 
 When setting up your flow, you select HubSpot as the app, then choose Contact Creation as the trigger event. After connecting your HubSpot account, Fastn starts listening for new contacts.
 
-Here’s how it works in action:
+Here's how it works in action:
 
 * A prospect fills out a form on your website.
 * HubSpot automatically creates a new contact with their details.
@@ -85,7 +85,7 @@ When a webhook event is triggered, Fastn creates a new document in Google Docs w
 
 ### **iv. On Schedule**
 
-Use this trigger to run flows automatically at specific times; whether that’s every hour, once a day, once a week, or on a custom schedule you define. It’s perfect for tasks that need to happen regularly, like sending reports, syncing data, or cleaning up old records. Just set it once, and Fastn will handle it from there.
+Use this trigger to run flows automatically at specific times; whether that's every hour, once a day, once a week, or on a custom schedule you define. It's perfect for tasks that need to happen regularly, like sending reports, syncing data, or cleaning up old records. Just set it once, and Fastn will handle it from there.
 
 #### **Use Case (Google Sheets → appendSheet)**
 
@@ -101,8 +101,20 @@ Trigger flows based on new messages from your users. This is especially useful f
 
 #### Use Case (Intercom  →  getContacts)
 
-When a user types _“Get my last 5 contacts from Intercom”_ into chat, Fastn triggers the flow and calls the **Intercom → getContacts** endpoint. The chatbot then returns the details of the most recent 5 contacts directly in the conversation.
+When a user types _"Get my last 5 contacts from Intercom"_ into chat, Fastn triggers the flow and calls the **Intercom → getContacts** endpoint. The chatbot then returns the details of the most recent 5 contacts directly in the conversation.
 
 <figure><img src="../../.gitbook/assets/image (580).png" alt=""><figcaption></figcaption></figure>
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (579).png" alt=""><figcaption></figcaption></figure></div>
+
+---
+
+## Next steps
+
+* [Designing a Flow](designing-a-flow/) — explore all flow components (connectors, loops, switches, data mapping, and more)
+* [Connecting Apps](connecting-apps/) — set up connectors and authentication for your external apps
+* [Data & Storage](data-and-storage/) — connect to the Fastn DB or external databases
+* [Flow Settings](flow-settings/) — configure execution type, validation, authentication, and error notifications
+* [Using Templates](flow-settings/using-templates.md) — start from a pre-built template instead of building from scratch
+* [Understanding Flow Types](../../resources/library/tutorials/understanding-flow-types/) — tutorials on activation, selection, and configuration flows
+* [FAQs](../../resources/library/faqs.md) — common questions about flow design and best practices

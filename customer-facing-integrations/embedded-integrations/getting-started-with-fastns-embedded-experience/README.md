@@ -4,13 +4,13 @@ description: >-
   through a real-world Shopify example.
 ---
 
-# Getting Started with Fastn’s Embedded Experience
+# Getting Started with Fastn's Embedded Experience
 
 ## What is the Embedded Experience?
 
 The **Embedded Experience** in Fastn allows you to bring your automated workflows directly into your product or platform. This gives your users a seamless, interactive way to trigger and manage workflows, without needing to log into Fastn or understand its backend logic.
 
-It’s designed to create a **white-labeled, native experience**, helping you deliver integrations and automation as a built-in feature of your own app.
+It's designed to create a **white-labeled, native experience**, helping you deliver integrations and automation as a built-in feature of your own app.
 
 ## Where Embedding Is Useful
 
@@ -22,13 +22,13 @@ You can embed Fastn to:
 
 
 
-Let’s walk through a real-world scenario of using Fastn’s embedded experience.
+Let's walk through a real-world scenario of using Fastn's embedded experience.
 
 ## Example Use Case: Sync Shopify Products to Elasticsearch
 
 Imagine you're building a platform for e-commerce merchants, and you want to offer product sync from **Shopify to Elasticsearch,** without building the integration yourself.
 
-Here’s how you can do it using Fastn:
+Here's how you can do it using Fastn:
 
 * **Use a Prebuilt Template**
   * Go to the **Flows** page in Fastn.
@@ -90,3 +90,13 @@ This embedded flow will keep Elasticsearch updated automatically whenever new pr
 The example above demonstrates how widgets can be used to trigger multiple flows against a particular use case.
 
 The Shopify widget can be integrated into a user's application to allow client to export data into their own Shopify accounts by using Widget to trigger authentication and connecting to their specific accounts.
+
+---
+
+## Related topics
+
+* [Building and Configuring Widgets](building-and-configuring-widgets-in-fastn.md) — create and customize widgets with actions, connectors, and tenant controls
+* [Previewing and Integrating Widgets](previewing-and-integrating-widgets.md) — preview your widget and embed it in your app via iframe or React
+* [Custom Webhooks: Automatic Triggers](custom-webhooks-automatic-triggers.md) — set up event-driven automation using webhooks and scheduled triggers
+* [Connecting Apps](../../../flows/flow-setup-essentials/connecting-apps/) — authenticate and connect third-party apps to use in your flows
+* [Your First Automation](../../about-fastn/your-first-automation.md) — guided tutorials to help you build your first working integration

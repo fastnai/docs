@@ -74,7 +74,7 @@ You can customize the default widget styling by clicking the **Styling** tab, ma
 
 ### Headless React Package
 
-The iframe approach uses Fastn’s UI and offers limited flexibility.\
+The iframe approach uses Fastn's UI and offers limited flexibility.\
 For full customization, Fastn provides a **headless React package** that exposes the APIs and lets you build your own UI.
 
 * Package: [https://www.npmjs.com/package/@fastn-ai/react-core](https://www.npmjs.com/package/@fastn-ai/react-core)
@@ -83,7 +83,7 @@ For full customization, Fastn provides a **headless React package** that exposes
 
 ## Overriding Widget Connector Auth Attributes
 
-* You can override the default auth attributes used by a widget’s dependency connector.
+* You can override the default auth attributes used by a widget's dependency connector.
 
 #### **Steps**
 
@@ -169,3 +169,11 @@ You can then update these configurations in the flow to reflect business logic (
   }
 ]
 ```
+
+---
+
+## Related topics
+
+* [Building and Configuring Widgets](building-and-configuring-widgets-in-fastn.md) — create and configure widgets with actions, connectors, and tenant settings
+* [Deployment](../../workspace-management/deployment/) — use releases and pipelines to promote widgets to production environments
+* [Releases](../../workspace-management/deployment/releases.md) — bundle flows, connectors, and widgets into versioned releases for deployment

@@ -8,7 +8,7 @@ description: >-
 
 ### _**Turn ideas into actions — fast**_
 
-Getting started with Fastn is easy. In this section, we’ll walk you through your very first automation flow, from picking a trigger to launching a working integration. Whether you're automating internal ops, syncing data, or connecting external APIs, these step-by-step tutorials will help you build confidently.
+Getting started with Fastn is easy. In this section, we'll walk you through your very first automation flow, from picking a trigger to launching a working integration. Whether you're automating internal ops, syncing data, or connecting external APIs, these step-by-step tutorials will help you build confidently.
 
 > No prior experience needed. Just follow along, and see how fast "automated" can be.
 
@@ -25,3 +25,13 @@ Getting started with Fastn is easy. In this section, we’ll walk you through yo
 {% content-ref url="../../resources/library/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-widget.md" %}
 [setting-up-a-google-drive-to-gcs-migration-widget.md](../../resources/library/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-widget.md)
 {% endcontent-ref %}
+
+---
+
+## Related topics
+
+* [How Fastn Works](how-fastn-works.md) — understand the platform architecture before diving into flows
+* [Flow Setup Essentials](../../flows/flow-setup-essentials/) — reference guide for all flow configuration options
+* [UCL Getting Started](../../ucl-unified-context-layer/getting-started/) — get started with the Unified Context Layer for AI agent integrations
+* [Designing a Flow](../../flows/flow-setup-essentials/designing-a-flow/) — detailed guidance on flow structure, triggers, and steps
+* [Data Migrations Tutorials](../../resources/library/tutorials/data-migrations/) — hands-on tutorials for migrating data between services using widgets

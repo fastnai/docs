@@ -30,7 +30,7 @@ Next you can define the table structure by specifying the name of the table and 
 
 Once you've added a **Database** element while building your flow, you can configure it with a custom SQL query to perform operations like inserting data into a table. Here's a simple use case:
 
-Let’s say you're building a flow that captures messages from a **Slack channel** and stores them in a Fastn database.
+Let's say you're building a flow that captures messages from a **Slack channel** and stores them in a Fastn database.
 
 First, ensure you've already created a table to hold the messages. You can do this by either:
 
@@ -59,3 +59,13 @@ VALUES (:channel_name, :user_name, :message, :timestamp);
 Here, `:channel_name`, `:user_name`, `:message`, and `:timestamp` are **dynamic variables** that map to the data coming from the Slack trigger.
 
 This setup allows every new Slack message to be captured and stored in your database in real time; enabling you to build logs, run analytics, or even trigger additional downstream processes.
+
+---
+
+## Related topics
+
+* [Connecting External Databases](connecting-external-databases.md) — connect PostgreSQL, MySQL, or Redshift instead of using the built-in Fastn DB
+* [Database (Flow Component)](../designing-a-flow/database.md) — add SQL queries as flow steps
+* [Data Mapping in Flows](../designing-a-flow/data-mapping-in-flows.md#database) — map query results to downstream flow steps
+* [Trigger](../designing-a-flow/trigger.md) — start a flow from app events (like Slack messages) to capture data automatically
+* [Variables](../designing-a-flow/variables.md) — store query parameters for reuse across flow steps

@@ -13,7 +13,7 @@ description: >-
 * **Search and select** a connector the widget should handle.
 
 {% hint style="info" %}
-You can pick from **Fastn’s built-in connectors** or connectors from **your own workspace**.
+You can pick from **Fastn's built-in connectors** or connectors from **your own workspace**.
 {% endhint %}
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3iSr2Tx8FvvuoLPncziH%2Fuploads%2FgeF1ThCniyyMxZUNuVie%2F20250630-2307-58.4172888.mp4?alt=media&token=c36e49e3-26ba-4c72-ad3b-51bca0057494" %}
@@ -26,7 +26,7 @@ Inside the widget editor:
 
 #### **a. Tenant Visibility**
 
-* Toggle **“Enable for specific tenants”** if the widget should only appear for selected tenants.
+* Toggle **"Enable for specific tenants"** if the widget should only appear for selected tenants.
 * Click **Add tenants** to specify which tenants can access it.
 
 #### **b. Widget Availability**
@@ -109,3 +109,11 @@ Once all actions and configurations are complete:
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3iSr2Tx8FvvuoLPncziH%2Fuploads%2Fut4ot4GOeNA5IZXOnFy4%2F20250702-0554-40.6684873.mp4?alt=media&token=0e89fe33-eca6-4364-b953-9a3c520d5b0d" %}
 
+---
+
+## Related topics
+
+* [Previewing and Integrating Widgets](previewing-and-integrating-widgets.md) — preview your widget and embed it in your app via iframe or React
+* [Custom Webhooks: Automatic Triggers](custom-webhooks-automatic-triggers.md) — configure event-driven webhook routes to automatically trigger flows
+* [Flow Setup Essentials](../../../flows/flow-setup-essentials/) — design and configure the flows attached to your widget actions
+* [Data Migrations Tutorials](../../../resources/library/tutorials/data-migrations/) — step-by-step tutorials showing widgets used for real-world data migration scenarios

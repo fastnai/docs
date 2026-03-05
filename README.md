@@ -4,7 +4,7 @@ description: AI-Powered Embedded Integration Infrastructure
 
 # About Fastn
 
-Customers expect your product to work seamlessly with the tools they already rely on. Fastn makes it easy to deliver native integrations that connect with your users’ apps, without the overhead of building and maintaining complex backend infrastructure.
+Customers expect your product to work seamlessly with the tools they already rely on. Fastn makes it easy to deliver native integrations that connect with your users' apps, without the overhead of building and maintaining complex backend infrastructure.
 
 Fastn provides access to over 15000+ tools through its extensive library of connectors, enabling your AI agents to automate and orchestrate workflows across a vast ecosystem of SaaS apps and services.
 
@@ -15,11 +15,11 @@ Fastn provides access to over 15000+ tools through its extensive library of conn
 * **A fully branded integration portal**\
   Let your users connect and manage integrations directly inside your product with a polished, native experience.
 * **Prebuilt and custom connectors**\
-  Use Fastn’s library of ready-to-go connectors or build your own to support any app your customers need.
+  Use Fastn's library of ready-to-go connectors or build your own to support any app your customers need.
 * **Scalable multitenant architecture**\
   Support every customer with isolated environments, role-based access, and per-tenant customization out of the box.
 * **Built-in monitoring and visibility**\
-  Track integration activity, catch issues early, and get clear insights into how everything’s performing.
+  Track integration activity, catch issues early, and get clear insights into how everything's performing.
 
 
 
@@ -73,7 +73,7 @@ Build enterprise grade automations ten times faster using the power of generativ
 
 Fastn makes it easy to build and run automated workflows across your integrations. Whether you're syncing data, sending notifications, or triggering actions based on events, everything runs in the background, reliably and at scale.
 
-An example is Fastn’s **Zap Trigger Subscribe** to kick off a Zapier workflow whenever a new contact is added in your app. This lets your users instantly connect Fastn-powered actions with 5,000+ tools on Zapier, without writing a single line of code.
+An example is Fastn's **Zap Trigger Subscribe** to kick off a Zapier workflow whenever a new contact is added in your app. This lets your users instantly connect Fastn-powered actions with 5,000+ tools on Zapier, without writing a single line of code.
 
 <div align="left"><figure><img src=".gitbook/assets/image (349).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -83,7 +83,7 @@ An example is Fastn’s **Zap Trigger Subscribe** to kick off a Zapier workflow 
 
 <summary><strong>Event-Driven Triggers &#x26; Actions</strong></summary>
 
-Once you’ve registered and set up your webhook routes in Fastn, you can configure triggers to automate when and how your workflows run.
+Once you've registered and set up your webhook routes in Fastn, you can configure triggers to automate when and how your workflows run.
 
 Triggers let you schedule workflows to run automatically, at set intervals or specific times, without any manual input.
 
@@ -97,7 +97,7 @@ For example, you want to send a daily status update to your Slack channel every 
 
 <summary><strong>Data Ingestion &#x26; Transformation</strong></summary>
 
-Build reliable background pipelines that pull in your users’ third-party data and update it in real time. With Fastn Flows, you can set up powerful, scalable automation
+Build reliable background pipelines that pull in your users' third-party data and update it in real time. With Fastn Flows, you can set up powerful, scalable automation
 
 For example, automatically ingest Salesforce contacts and sync them into your users' HubSpot accounts as they update.
 
@@ -111,13 +111,13 @@ Fastn handles the heavy lifting so you can focus on your product, not data plumb
 
 <summary><strong>Bi-Directional Sync</strong></summary>
 
-Keep your product and your customers’ tools in perfect sync with real-time, reliable two-way data flows.\
+Keep your product and your customers' tools in perfect sync with real-time, reliable two-way data flows.\
 For example:
 
 * Sync Salesforce contacts to HubSpot on a scheduled basis.
 * Instantly push HubSpot contacts to Salesforce when new data is added.
 
-Fastn makes two-way syncing seamless, whether it’s time-based or triggered by events.
+Fastn makes two-way syncing seamless, whether it's time-based or triggered by events.
 
 <div align="left"><figure><img src=".gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -157,3 +157,15 @@ Jump into **Your First Automation** to start building with Fastn.
 [your-first-automation.md](customer-facing-integrations/about-fastn/your-first-automation.md)
 {% endcontent-ref %}
 
+---
+
+## Explore the documentation
+
+* [Your First Automation](customer-facing-integrations/about-fastn/your-first-automation.md) — get started with a hands-on walkthrough
+* [How Fastn Works](customer-facing-integrations/about-fastn/how-fastn-works.md) — understand Fastn's architecture and core concepts
+* [Flow Setup Essentials](flows/flow-setup-essentials/) — learn how to build automated workflows with triggers, connectors, and logic
+* [UCL Getting Started](ucl-unified-context-layer/getting-started/) — connect your AI agents to 250+ tools via the Unified Context Layer
+* [Embedded Integrations](customer-facing-integrations/embedded-integrations/) — embed a branded integration portal in your product
+* [Tutorials](resources/library/tutorials/) — step-by-step guides for flow types, customization, and data migrations
+* [FAQs](resources/library/faqs.md) — common questions about flows, debugging, and best practices
+* [Glossary](resources/library/glossary.md) — definitions of key terms used throughout the documentation

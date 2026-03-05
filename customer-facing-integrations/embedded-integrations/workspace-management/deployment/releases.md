@@ -56,3 +56,11 @@ This helps you validate changes before deploying.
 #### **Create Another Release**
 
 * Use the **Create Release** button again to generate a new version and compare it with the previous one.
+
+---
+
+## Related topics
+
+* [Pipelines](pipelines.md) — set up deployment destinations and push your releases to target environments
+* [Deployment overview](./) — understand the full deployment workflow including releases and pipelines
+* [Previewing and Integrating Widgets](../../getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md) — verify your widget works correctly before including it in a release

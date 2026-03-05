@@ -78,3 +78,13 @@ With the gRPC API Connector, you can connect with services that expose APIs over
 You can add a connector that can integrate databases such as Postgres, Redshift, and MySQL into your workspace.
 
 <figure><img src="../../../.gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Connector Types & Setup](connector-types-and-setup.md) — learn about community, workspace, and organization connector types
+* [Setting up Connector Authentication](setting-up-connector-authentication.md) — configure authentication for your connectors
+* [Connectors (Flow Component)](../designing-a-flow/connectors.md) — use connectors as steps inside a flow and configure endpoints
+* [Data Mapping in Flows](../designing-a-flow/data-mapping-in-flows.md#connectors) — map connector inputs and outputs between flow steps
+* [Data Migrations Tutorials](../../../resources/library/tutorials/data-migrations/) — see connectors used end-to-end in Google Drive and Redshift migration workflows
