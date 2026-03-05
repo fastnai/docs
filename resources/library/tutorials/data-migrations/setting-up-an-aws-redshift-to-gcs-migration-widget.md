@@ -196,3 +196,13 @@ Once set up, this Fastn widget gives your users a seamless experience to:
 * Configure what to sync
 * Schedule automated migrations
 * Push selected data to AWS Redshift Storage reliably
+
+---
+
+## Related topics
+
+* [Setting up a Redshift to GCS migration flow](setting-up-a-redshift-to-gcs-migration-flow.md) — build the underlying flow that queries Redshift and uploads results to GCS
+* [Setting up a Google Drive to GCS migration widget](setting-up-a-google-drive-to-gcs-migration-widget.md) — configure a migration widget for Google Drive using the same widget pattern
+* [Building and configuring widgets](../../../../customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/building-and-configuring-widgets-in-fastn.md) — general guide to creating and configuring widgets in Fastn
+* [Connectors](../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to AWS Redshift and Google Cloud Storage in your flows
+* [How to set up pagination in your flow](../flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — retrieve large Redshift datasets efficiently in batches

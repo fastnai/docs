@@ -4,7 +4,7 @@ description: Transform and Reshape Data for the Next Step.
 
 # Data Mapping in Flows
 
-You can use **Data Mapper** to reshape and transform data as it flows through your integration. Whether you're preparing inputs for an API call, structuring data for storage, or customizing outputs for downstream steps, the Data Mapper gives you full control. You can reference outputs from earlier steps, use flow variables, or inject secrets to build the exact data object you need, without writing custom code.
+You can use **[Data Mapper](data-mapper.md)** to reshape and transform data as it flows through your integration. Whether you're preparing inputs for an API call, structuring data for storage, or customizing outputs for downstream steps, the Data Mapper gives you full control. You can reference outputs from earlier steps, use flow variables, or inject secrets to build the exact data object you need, without writing custom code.
 
 ### Getting Started
 
@@ -461,9 +461,9 @@ For example:
 
 When you build flows in Fastn, each component can both **take mapped inputs from previous steps** and **produce outputs that can be mapped into later steps**. The style of mapping depends on the type of component you are working with. Below are examples of how mapping works for each.
 
-### **Connectors**
+### **[Connectors](connectors.md)**
 
-You can map values from a connector step’s output into another step, or pass dynamic values from earlier steps _into_ a connector.
+You can map values from a connector step's output into another step, or pass dynamic values from earlier steps _into_ a connector.
 
 #### **Example (Mapping into Gmail)**
 
@@ -481,7 +481,7 @@ _Endpoint: sendMail_
 {{steps.sendMail.output.messageId}}
 ```
 
-### **Database**
+### **[Database](database.md)**
 
 Database steps accept mapped values from previous steps (to build queries) and also produce query results that can be mapped downstream.
 
@@ -497,7 +497,7 @@ Query = SELECT * FROM orders WHERE customerId = {{steps.hubspot.output.contactId
 {{steps.databaseQuery.output.rows[0].email}}
 ```
 
-### **Data Mapper**
+### **[Data Mapper](data-mapper.md)**
 
 The Data Mapper helps you transform or restructure values before passing them further. You can map in any output from earlier steps and produce a structured object as output.
 
@@ -516,7 +516,7 @@ The Data Mapper helps you transform or restructure values before passing them fu
 <pre class="language-js"><code class="lang-js"><strong>{{steps.dataMapper.output.id}}
 </strong></code></pre>
 
-### **Variables**
+### **[Variables](variables.md)**
 
 Variables are defined once and then can be referenced throughout the flow.
 
@@ -532,7 +532,7 @@ Variables are defined once and then can be referenced throughout the flow.
 {{variables.filePath}}
 ```
 
-### **Switch**
+### **[Switch](switch.md)**
 
 Switch uses mapped values to decide which path to take. You pass outputs from earlier steps _into_ the condition, and the result determines the execution path.
 
@@ -548,7 +548,7 @@ Case: {{steps.orderCheck.output.status}} == "shipped"
 {{steps.switchCase.output.selectedCase}}
 ```
 
-### **Loop**
+### **[Loop](loop.md)**
 
 Loops take a list of items as input, and each iteration produces one item that can be mapped into child steps.
 
@@ -564,7 +564,7 @@ Loops take a list of items as input, and each iteration produces one item that c
 {{steps.loopOverContacts.item.email}}
 ```
 
-### **Download File**
+### **[Download File](download-file.md)**
 
 The Download File step maps a file URL from earlier steps, and produces a file reference for later steps.
 
@@ -581,7 +581,7 @@ DestinationName = "report.csv"
 {{steps.downloadFile.output.filePath}}
 ```
 
-### **Logger**
+### **[Logger](logger.md)**
 
 Logger maps in any value you want to record. Its output is usually just a confirmation, but the logs can be used for debugging.
 
@@ -598,7 +598,7 @@ Message = {{steps.orderCheck.output.status}}
 {{steps.logger.output.confirmation}}
 ```
 
-### **Converter**
+### **[Converter](converter.md)**
 
 Converter takes mapped input (like JSON or CSV) and converts it into another format. You map the source data in, and then downstream steps can use the converted file or object.
 
@@ -616,7 +616,7 @@ Source = {{steps.apiFetch.output.jsonData}}
 {{steps.convertInput.output.filePath}}
 ```
 
-### **Custom Code (JSON)**
+### **[Custom Code](custom-code.md) (JSON)**
 
 When using JSON code, values are accessed in the handler via `params.data.input`. You can map values in by defining them as inputs, and map values out by returning them.
 
@@ -634,7 +634,7 @@ return { query: "INSERT INTO apps ..." }
 {{steps.customJsonCode.output.query}}
 ```
 
-### **Custom Code (Python Lambda)**
+### **[Custom Code](custom-code.md) (Python Lambda)**
 
 For Python Lambda, you access mapped values from previous steps using `params['data']['steps']`. You return a response dictionary that can be mapped downstream.
 
@@ -651,7 +651,7 @@ response["discounted_price"] = 90
 # mapped as: {{steps.pythonLambda.output.discounted_price}}
 ```
 
-### **Flow Response (Success & Error)**
+### **[Flow Response](flow-response-success-and-error.md) (Success & Error)**
 
 Flow Response maps in values you want to return as the final output of the flow. This could be static or pulled from previous steps.
 
@@ -679,3 +679,10 @@ This error often arises due to issues with data mapping and type conversion. Her
 3. **Default Value Check**: If a field's default value is empty, consider setting it to `null`.
 4. **Value Escaping**: Properly escape values that contain special characters like `"` or `/` using the advanced action feature.
 5. **Advance Action Inputs**: Review any advanced actions in the step to ensure that input values are not passing incorrect data.
+
+---
+
+## Related topics
+
+* [Flow Transformation](flow-transformation/) — filter, limit, split, aggregate, and merge data between steps
+* [FAQs](../../../resources/library/faqs.md) — common questions about flow design and data mapping

@@ -10,9 +10,9 @@ description: >-
 
 {% embed url="https://youtu.be/H_hHMOIq7Zo" %}
 
-**Embedding** refers to integrating UCL directly into your AI agent’s environment so it can take real actions, like sending messages, updating records, or triggering workflows, using your connected tools.
+**Embedding** refers to integrating UCL directly into your AI agent's environment so it can take real actions, like sending messages, updating records, or triggering workflows, using your connected tools.
 
-When you’re integrating **tools** into your SaaS product, **Unified Context Layer (UCL)** makes it easy to connect 1000+ tools (Actions), manage customer environments, and orchestrate real-world actions from a single command layer.
+When you're integrating **tools** into your SaaS product, **Unified Context Layer (UCL)** makes it easy to connect 1000+ tools (Actions), manage customer environments, and orchestrate real-world actions from a single command layer.
 
 In this guide, we will walk you through step by step from setting up your space to fully embedding your tools into your environment, including but not limited to:
 
@@ -100,7 +100,7 @@ In this case, you can use the Fastn UCL \[GitHub Template Starter] for embedding
 
 <figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 
-. ToWithin the first embedding step, we’ll focus on setting up your codebase environment where you can embed UCL easily, to ensure an easy-to-follow process, you can find an example environment repository to clone below:
+. ToWithin the first embedding step, we'll focus on setting up your codebase environment where you can embed UCL easily, to ensure an easy-to-follow process, you can find an example environment repository to clone below:
 
 {% embed url="https://github.com/fastnai/embedded-multitenant-ai-assistant" %}
 
@@ -181,11 +181,11 @@ Alternatively, if you do not want to use your code editor, you can simply set up
 
 Codespaces provides a complete, pre-configured development environment in the cloud, allowing you to start coding instantly without worrying about local setup or dependencies.
 
-* Simply access the repository → Click on **Code → Then click on “Create codespace on main”**
+* Simply access the repository → Click on **Code → Then click on "Create codespace on main"**
 
 <figure><img src="../../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
 
-* After creating a codespace environment you’ll see a live code editor waiting for you
+* After creating a codespace environment you'll see a live code editor waiting for you
 
 <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -201,3 +201,13 @@ UCL simplifies the process of embedding AI capabilities into your applications b
 
 * Explore [Fastn Docs](https://docs.fastn.ai/)
 * Or [request a demo](https://ucl.dev/) for advanced onboarding
+
+---
+
+## Related topics
+
+* [Getting started with UCL](../) — workspace setup and onboarding walkthrough
+* [Defining an MCP server](defining-an-mcp-server.md) — configure a custom MCP server from the UCL dashboard
+* [Creating a custom tool](creating-a-custom-tool.md) — build your own tool groups using natural language
+* [Multitenancy](multitenancy.md) — manage multiple customers within a single UCL deployment
+* [AI agent and AI action in flows](../../../flows/flow-setup-essentials/designing-a-flow/ai-agent-and-ai-action-in-flows.md) — use AI agents and actions inside Fastn flow automation

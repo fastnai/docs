@@ -94,3 +94,11 @@ description: >-
 * You can customize the logic to match your own authentication provider, add extra validation rules, or enrich the returned user object.
 
 > With this setup, you decide exactly how requests are authenticated and what user details are returned.
+
+---
+
+## Next steps
+
+* [Previewing and integrating widgets](../../../../customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md) — embed your custom auth flow into a widget
+* [How to customize your error notification flow](how-to-customize-your-error-notification-flow.md) — handle errors alongside custom authentication
+* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — reference for OAuth, API key, and Bearer Token options

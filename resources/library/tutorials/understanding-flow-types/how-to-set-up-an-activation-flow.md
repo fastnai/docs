@@ -8,7 +8,7 @@ description: >-
 
 ### Overview
 
-The **Activation Flow** is a foundational template used to automate project or tenant activation. You can use it as-is for testing or customize it for your own setup. It’s available in the **Templates** section of your workspace.
+The **Activation Flow** is a foundational template used to automate project or tenant activation. You can use it as-is for testing or customize it for your own setup. It's available in the **Templates** section of your workspace.
 
 This guide provides a conceptual overview of each step so you can understand the logic and modify it as needed.
 
@@ -26,7 +26,7 @@ For more details, see [Flow Types – Choosing a Starting Point](../../../../flo
 
 ### 2. Initialize Your Flow Variables
 
-The second step is a **Variable step** named **“initiate your flow variables.”**
+The second step is a **Variable step** named **"initiate your flow variables."**
 
 This sets up key reusable values such as:
 
@@ -67,7 +67,7 @@ If your setup includes templates, the flow loops through each one to check wheth
 
 * This ensures that all required templates for the tenant are created and deployed.
 
-> You can omit this section entirely if your activation doesn’t require template imports.
+> You can omit this section entirely if your activation doesn't require template imports.
 
 ### 5. Loop Over Webhooks
 
@@ -103,7 +103,7 @@ Each webhook can include:
 
 <figure><img src="../../../../.gitbook/assets/image (635).png" alt=""><figcaption></figcaption></figure>
 
-> If your project doesn’t use webhooks, you can remove these steps and keep only the relevant logic for your activation.
+> If your project doesn't use webhooks, you can remove these steps and keep only the relevant logic for your activation.
 
 ### 6. Success Response
 
@@ -116,11 +116,19 @@ The final step is a **Response step**, which returns a success message.
 
 ### When to Use This Flow?
 
-This is a **basic activation flow** typically used in multi-tenant setups. It ensures that each tenant’s templates and webhooks are properly initialized.
+This is a **basic activation flow** typically used in multi-tenant setups. It ensures that each tenant's templates and webhooks are properly initialized.
 
 You can also adapt this structure for other activation scenarios:
 
 * Use it without templates or webhooks by removing those loops.
-* Treat any flow connected through a widget’s **“activate”** function as an activation flow.
+* Treat any flow connected through a widget's **"activate"** function as an activation flow.
 
 > This template helps you structure any activation process,  whether for tenants, projects, or custom configurations.
+
+---
+
+## Next steps
+
+* [How to set up a selection flow](how-to-set-up-a-selection-flow.md) — learn to populate dynamic dropdowns for your widgets
+* [How to set up a configuration flow](how-to-set-up-a-configuration-flow-in-fastn/README.md) — define user-configurable fields and validation
+* [Flow customization and operations](../flow-customization-and-operations/README.md) — customize authentication, error handling, and pagination

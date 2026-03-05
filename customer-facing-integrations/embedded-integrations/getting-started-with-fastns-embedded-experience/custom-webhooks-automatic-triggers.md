@@ -34,11 +34,11 @@ From the left side menu, navigate to the **Triggers** page and then click on **A
 
 Routes provide you with a webhook URL that can be linked to a specific route. Each time this webhook URL is triggered externally, the route runs its assigned flow automatically.
 
-Once you’ve registered your webhook, you can configure routes to define how incoming data should be processed.
+Once you've registered your webhook, you can configure routes to define how incoming data should be processed.
 
 <figure><img src="../../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
 
-To add a new route, simply click on **“Add Route.”**
+To add a new route, simply click on **"Add Route."**
 
 <figure><img src="../../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
 
@@ -78,7 +78,7 @@ Headers allow you to include additional information or instructions for the dest
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeseaaxvgvXemv7gUAt7hHmdn9yYuOjgyZC2w8pHGjPZj_LgwvdS8kVqucG8fTeSncgg36sIUma3yaCiefS_bqAsl7L33r9nCTE3Q6Z8L1ehq_ncHr-AxVRfuLtvm5u6bxTPrvwag?key=aWFNWdC9I0x6b7wkwYQbDg" alt=""><figcaption></figcaption></figure>
 
 6. **Batch Window:** Define the size of each batch to be processed. This controls how many events are grouped together before processing, optimizing performance and resource usage.
-7. **Add Description:** After adding headers, it’s helpful to include a description for your webhook route. This provides context and clarifies the purpose or functionality of the route for future reference.
+7. **Add Description:** After adding headers, it's helpful to include a description for your webhook route. This provides context and clarifies the purpose or functionality of the route for future reference.
 
 <figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,7 +86,7 @@ Headers allow you to include additional information or instructions for the dest
 
 ## Triggers
 
-Once you’ve registered your webhook and configured its routes on Fastn.ai, you can optionally set up **triggers** to automate when your webhook and its associated workflows run.
+Once you've registered your webhook and configured its routes on Fastn.ai, you can optionally set up **triggers** to automate when your webhook and its associated workflows run.
 
 Triggers enable you to schedule automatic executions based on your preferred timing or intervals—no manual intervention needed.
 
@@ -95,10 +95,18 @@ Triggers enable you to schedule automatic executions based on your preferred tim
 Follow these steps to configure a trigger for your webhook:
 
 1. **Enable Scheduling**\
-   Click the **“Enable Schedule”** toggle to activate the scheduling feature.
+   Click the **"Enable Schedule"** toggle to activate the scheduling feature.
 2. **Select a Scheduling Option**\
    Choose between **Time-based** (specific times/dates) or **Rate-based** (fixed intervals) scheduling according to your needs.
 3. **Choose the Destination API**\
    Select the API endpoint where the webhook payload should be sent when triggered.
 4. **Save Your Trigger**\
    Click **Save** to confirm and activate your trigger settings.
+
+---
+
+## Related topics
+
+* [Building and Configuring Widgets](building-and-configuring-widgets-in-fastn.md) — attach flows to widgets so users can trigger them from your embedded UI
+* [Flow Setup Essentials](../../../flows/flow-setup-essentials/) — explore all flow types, including the On Webhook trigger
+* [Trigger](../../../flows/flow-setup-essentials/designing-a-flow/trigger.md) — configure the trigger step that starts a flow, including webhook-based triggers

@@ -18,3 +18,13 @@ Int OrderId = 12345
 Str Status = "error"  
 Str ErrorMessage = "Invalid customer email"
 ```
+
+---
+
+## Related topics
+
+* [Data Mapping in Flows](data-mapping-in-flows.md#flow-response-success-and-error) — map values from previous steps into your flow response
+* [Switch](switch.md) — route to different success or error responses based on conditions
+* [Logger](logger.md) — log response details for debugging and monitoring
+* [Flow Settings](../flow-settings/) — configure error notifications and custom authentication for your flows
+* [How to Customize Success and Error Messages UI in Flows](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-success-and-error-messages-ui-in-flows.md) — tutorial on customizing response appearance

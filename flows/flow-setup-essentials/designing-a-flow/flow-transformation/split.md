@@ -89,4 +89,14 @@ For Example:
 
 * Passing specific fields to another connector for processing.
 * Filtering the dataset based on certain dimensions before performing calculations.
-* Using split data as input for AI agents or custom code steps.
+* Using split data as input for [AI agents](../ai-agent-and-ai-action-in-flows.md) or [custom code](../custom-code.md) steps.
+
+---
+
+## Related topics
+
+* [Merge](merge.md) — combine split branches back into a single output path
+* [Filter](filter.md) — narrow split data further by condition
+* [Aggregate](aggregate.md) — compute summarized values from split branches
+* [Data Mapping in Flows](../data-mapping-in-flows.md) — map split outputs into downstream steps
+* [AI Agent & AI Action in Flows](../ai-agent-and-ai-action-in-flows.md) — send split data to AI models for processing

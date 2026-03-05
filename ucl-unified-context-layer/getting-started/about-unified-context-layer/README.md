@@ -16,7 +16,7 @@ Think of it as a universal remote control for AI agents, letting them interact w
 
 ### **Why do SaaS companies need UCL?**
 
-SaaS platforms serve many customers, and each customer often uses a different mix of tools, CRMs, ticketing systems, and messaging apps. To make AI agents truly effective inside a SaaS product, they need to connect to each customer’s unique stack securely and in real time.
+SaaS platforms serve many customers, and each customer often uses a different mix of tools, CRMs, ticketing systems, and messaging apps. To make AI agents truly effective inside a SaaS product, they need to connect to each customer's unique stack securely and in real time.
 
 UCL handles this complexity out of the box. It enables you to support custom integrations for every customer while managing authentication, routing, and user isolation. So, whether one customer uses **Salesforce** and **Slack** and another uses **HubSpot** and **Microsoft Teams**, their AI agents can still act intelligently within the right context and without requiring any code changes.
 
@@ -26,7 +26,7 @@ UCL handles this complexity out of the box. It enables you to support custom int
 
 Enterprises need more than just secure integrations. They need smart, permission-aware agents that understand how different teams and departments work, that is also completely owned and controlled by enterprises. For example, marketing might need access to content tools, while IT needs infrastructure access, each with the right boundaries.
 
-UCL enables this with contextual permissions, team-based access to tools, and isolated execution per workspace. This allows AI agents to run across different departments with just the right level of access and visibility. Each team’s agent stays secure and focused, even when operating across a shared environment.
+UCL enables this with contextual permissions, team-based access to tools, and isolated execution per workspace. This allows AI agents to run across different departments with just the right level of access and visibility. Each team's agent stays secure and focused, even when operating across a shared environment.
 
 **Imagine this,**\
 You are building a task reminder feature for your SaaS product. Your customers use different tools to receive notifications:
@@ -36,7 +36,7 @@ You are building a task reminder feature for your SaaS product. Your customers u
 * **Customer C** wants reminders via **Gmail.**
 
 **The Challenge with MCP:**\
-Using Model Context Protocol (MCP) alone, you can standardize how agents describe actions, but you’re still responsible for building the infrastructure to execute them.\
+Using Model Context Protocol (MCP) alone, you can standardize how agents describe actions, but you're still responsible for building the infrastructure to execute them.\
 Each customer, tool, or environment requires a separate setup:
 
 * Custom logic for routing
@@ -54,7 +54,7 @@ UCL does the heavy-lifting;
 * Routes the command to the correct tool, like Slack, Teams, or Notion.
 * Manages authentication, retries, and logging in the background.
 
-You don’t need to write separate logic for each user or app. UCL ensures the right action happens in the right context.
+You don't need to write separate logic for each user or app. UCL ensures the right action happens in the right context.
 
 **Result:**
 
@@ -132,4 +132,15 @@ UCL provides comprehensive visibility into all integration activity across users
 
 #### **Security: Built-In Isolation and Access Control**
 
-Security is fundamental to UCL’s architecture. User data and execution contexts are strictly isolated, and access is governed by fine-grained, role-based controls. Every request is authenticated and validated, ensuring that actions taken through AI agents remain secure and compliant with organizational policies.
+Security is fundamental to UCL's architecture. User data and execution contexts are strictly isolated, and access is governed by fine-grained, role-based controls. Every request is authenticated and validated, ensuring that actions taken through AI agents remain secure and compliant with organizational policies.
+
+---
+
+## Related topics
+
+* [Getting started with UCL](../) — workspace setup and onboarding walkthrough
+* [Embedding UCL onto your AI agent](embedding-ucl-onto-your-ai-agent.md) — integrate UCL directly into your product or codebase
+* [Multitenancy](multitenancy.md) — how UCL isolates and manages multiple customers within one deployment
+* [Defining an MCP server](defining-an-mcp-server.md) — configure a custom MCP server from the UCL dashboard
+* [Creating a custom tool](creating-a-custom-tool.md) — build your own tool groups using natural language
+* [Monitoring](monitoring/) — track usage, performance, and activity across your tenants

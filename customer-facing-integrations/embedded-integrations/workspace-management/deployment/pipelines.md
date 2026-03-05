@@ -43,5 +43,12 @@ Once the pipeline is created:
 
 <figure><img src="../../../../.gitbook/assets/image (683).png" alt=""><figcaption></figcaption></figure>
 
-> You’ll see a confirmation indicating that the deployment is complete and that the selected release was successfully pushed to the configured destinations.
+> You'll see a confirmation indicating that the deployment is complete and that the selected release was successfully pushed to the configured destinations.
 
+---
+
+## Related topics
+
+* [Releases](releases.md) — create versioned bundles of workspace resources to deploy through a pipeline
+* [Deployment overview](./) — understand the full deployment workflow including releases and pipelines
+* [Flow Settings](../../../../flows/flow-setup-essentials/flow-settings/) — configure flow-level settings that affect which environment a flow targets when deployed

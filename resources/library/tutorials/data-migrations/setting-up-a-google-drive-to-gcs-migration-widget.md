@@ -151,7 +151,7 @@ function handler(params) {
 ```
 
 * **Switch**
-  * If tenant doesn’t exist → return error
+  * If tenant doesn't exist → return error
   * Else → proceed to Loop Over Templates
 
 <figure><img src="../../../../.gitbook/assets/image (492).png" alt=""><figcaption></figcaption></figure>
@@ -265,3 +265,11 @@ Once set up, this Fastn widget gives your users a seamless experience to:
 * Configure what to sync
 * Schedule automated migrations
 * Push selected data to Google Cloud Storage reliably
+
+---
+
+## Next steps
+
+* [Setting up a Google Drive to GCS migration flow](setting-up-a-google-drive-to-gcs-migration-flow.md) — build the underlying flow that transfers files from Drive to GCS
+* [Previewing and integrating widgets](../../../../customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md) — test and embed your migration widget
+* [Deployment](../../../../customer-facing-integrations/embedded-integrations/workspace-management/deployment/README.md) — deploy your widget to production via releases and pipelines

@@ -35,7 +35,7 @@ The next step maps values from your [**DriveConfigFlow** ](setting-up-a-google-d
 
 ### Create Bucket for Tenant
 
-Once these values are ready, you can use the Google Cloud Storage connector to create a **bucket for the tenant** if it doesn’t already exist.
+Once these values are ready, you can use the Google Cloud Storage connector to create a **bucket for the tenant** if it doesn't already exist.
 
 <figure><img src="../../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +106,7 @@ After the Loop Over Input ends, the next step will be a loop  that runs until al
 * If no files remain, exit the loop.
 *   Else, set:
 
-    * `currentFile = {{var.files[0]}}` , the file you’ll process now.
+    * `currentFile = {{var.files[0]}}` , the file you'll process now.
 
     <figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
@@ -126,7 +126,7 @@ After the Loop Over Input ends, the next step will be a loop  that runs until al
         * `param.fields = files(id,name,mimeType,modifiedTime)`
 
         <figure><img src="../../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
-    * Append each returned file to `var.files` so they’re picked up in the same loop.
+    * Append each returned file to `var.files` so they're picked up in the same loop.
 
     <figure><img src="../../../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
@@ -230,3 +230,13 @@ The loop continues until all files are processed.\
 When complete, the main flow returns a success message confirming the migration.
 
 <figure><img src="../../../../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Setting up a Google Drive to GCS migration widget](setting-up-a-google-drive-to-gcs-migration-widget.md) — configure the widget that triggers this migration flow
+* [Setting up a Redshift to GCS migration flow](setting-up-a-redshift-to-gcs-migration-flow.md) — migrate data from AWS Redshift to GCS using a similar flow pattern
+* [Connectors](../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to Google Drive and Google Cloud Storage in your flows
+* [Data mapping in flows](../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
+* [Loop](../../../../flows/flow-setup-essentials/designing-a-flow/loop.md) — iterate over file lists and process each item in sequence

@@ -47,3 +47,12 @@ You can add individual flows related to tasks between HubSpot and your organizat
 These syncs will be displayed as buttons within your widgets. By adding each of these flows, you can execute any desired action from a single widget interface.
 
 <figure><img src="../../../../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Connecting apps](../../../../flows/flow-setup-essentials/connecting-apps/README.md) — manage connectors and app connections within your workspace
+* [Connector types and setup](../../../../flows/flow-setup-essentials/connecting-apps/connector-types-and-setup.md) — understand Fastn connectors and how to configure them
+* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — establish OAuth and API key connections to external services
+* [Embedded integrations](../../../../customer-facing-integrations/embedded-integrations/README.md) — embed and manage integrations within your product's interface

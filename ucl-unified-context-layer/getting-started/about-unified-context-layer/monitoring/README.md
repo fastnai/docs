@@ -13,7 +13,7 @@ To access the monitoring tools, simply go to the **Insights** section in the top
 
 ### Overview Dashboard
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.40 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.40 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ The dashboard represents each action triggered by a connector (e.g., sending a m
 * **Tenant Request Success Rate** – percentage of successful requests per tenant.
 * **Monthly Usage** – number of actions performed this month.
 * **Weekly Usage** – number of actions performed this week.
-* **Today’s Usage** – number of actions performed today.
+* **Today's Usage** – number of actions performed today.
 * **Connection Success Rate** – percentage of successful connector connections.
 * **Average API Latency** – average time an API takes to respond.
 * **Average Workload Latency** – average time a workload (background process) takes to complete.
@@ -47,7 +47,7 @@ Workspace-specific data is not displayed here.
   * Response usage
 * Use the **filter** at the top to switch between current month or current week views.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.54 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.54 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -67,7 +67,7 @@ The logging system provides detailed visibility into every action performed.
 Expand a log entry to view the **full request details**.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.31.45 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-09-11 at 11.31.45 PM.png" alt=""><figcaption></figcaption></figure>
 
 By clicking the **→** button, you can access detailed insights for individual logs, including:
 
@@ -85,4 +85,13 @@ By clicking the **→** button, you can access detailed insights for individual 
 * **Security & Compliance** – Every request is tenant-scoped and logged, making audits and access reviews simple.
 * **Scalability** – As you grow, dashboards help ensure consistent quality of service across all users.
 
-> UCL doesn’t just route and execute, it gives you full observability to manage and optimize your integration layer with confidence.
+> UCL doesn't just route and execute, it gives you full observability to manage and optimize your integration layer with confidence.
+
+---
+
+## Related topics
+
+* [UCL security and compliance](ucl-security-and-compliance.md) — enterprise-grade security controls, audit trails, and compliance readiness
+* [About Unified Context Layer](../) — understand UCL's architecture, multitenancy, and core capabilities
+* [Logger](../../../../flows/flow-setup-essentials/designing-a-flow/logger.md) — add logging steps inside Fastn flows for detailed request tracing
+* [Analytics and monitoring dashboard](../../../../customer-facing-integrations/embedded-integrations/workspace-management/analytics-and-monitoring-dashboard.md) — track usage and performance across your embedded integrations

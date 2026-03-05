@@ -55,7 +55,7 @@
 
 <summary>How should I filter records in API-based connectors?</summary>
 
-Most connectors support filtering via query parameters. When filtering by fields like email, ensure values are properly URL-encoded, this includes support for plus-addresses (e.g. `user+tag@example.com`).
+Most [connectors](../../flows/flow-setup-essentials/designing-a-flow/connectors.md) support filtering via query parameters. When filtering by fields like email, ensure values are properly URL-encoded, this includes support for plus-addresses (e.g. `user+tag@example.com`).
 
 </details>
 
@@ -65,7 +65,7 @@ Most connectors support filtering via query parameters. When filtering by fields
 
 Split the sync into two flows:
 
-* **Ingestion Flow**: Fetch data and store it in the Fastn database.
+* **Ingestion Flow**: Fetch data and store it in the [Fastn database](../../flows/flow-setup-essentials/data-and-storage/connect-to-the-fastn-db.md).
 * **Publishing Flow**: Push stored records to the destination in smaller batches.\
   This reduces API pressure, improves reliability, and allows for easier retries and monitoring.
 
@@ -91,7 +91,15 @@ Log synced record IDs or counts to the Fastn database to track actual progress a
 
 <summary>What date format should I use in filters or payloads?</summary>
 
-Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn’s built-in transformations to convert it before syncing.
+Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn's built-in transformations to convert it before syncing.
 
 </details>
 
+---
+
+## Related topics
+
+* [Designing a flow](../../flows/flow-setup-essentials/designing-a-flow/README.md) — reference for all flow components including triggers, loops, and switches
+* [Flow response: success and error](../../flows/flow-setup-essentials/designing-a-flow/flow-response-success-and-error.md) — configure what your flow returns on success or failure
+* [Data mapping in flows](../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
+* [Flow settings](../../flows/flow-setup-essentials/flow-settings/README.md) — configure step-level settings, templates, and execution options

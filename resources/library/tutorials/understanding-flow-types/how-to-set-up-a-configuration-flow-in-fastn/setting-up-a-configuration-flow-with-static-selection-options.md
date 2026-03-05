@@ -14,22 +14,22 @@ In the **Options** section, go to the **Selection Type** setting and choose **St
 
 <figure><img src="../../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
-For example, if you’re defining a variable  `syncFrequency` in your Data Mapper step, you can configure it as an **array** and manually add static options.
+For example, if you're defining a variable  `syncFrequency` in your Data Mapper step, you can configure it as an **array** and manually add static options.
 
 ## **Setting Up Static Options**
 
-After selecting **Static** as your selection type, you’ll see the same general field options available for configuration:
+After selecting **Static** as your selection type, you'll see the same general field options available for configuration:
 
 Each item consists of:
 
-* **Option Label** – The name displayed in the UI (e.g., “Once a Day”).
+* **Option Label** – The name displayed in the UI (e.g., "Once a Day").
 * **Option Value** – The value stored in the backend (e.g., 24).
 
 You can add as many static values as needed. These will appear in the configuration as a dropdown list for users to choose from.
 
 ### **Example: Sync Frequency Variable**
 
-Let’s say you have a variable called `syncFrequency`.
+Let's say you have a variable called `syncFrequency`.
 
 * When `syncFrequency` is an **array**, you can manually define options such as:
   * Option Label: **Once a Day** → Option Value: **24**
@@ -57,7 +57,7 @@ For example, if the label or value needs to be generated dynamically (like `HubS
 
 <summary><strong>Static Configuration Flows</strong></summary>
 
-Use when you want fixed dropdown options that don’t change (e.g., predefined sync frequencies or toggle options).
+Use when you want fixed dropdown options that don't change (e.g., predefined sync frequencies or toggle options).
 
 </details>
 
@@ -68,3 +68,13 @@ Use when you want fixed dropdown options that don’t change (e.g., predefined s
 Use when your options need to be fetched dynamically (e.g., pulling tables, files, or account data).
 
 </details>
+
+---
+
+## Related topics
+
+* [Dynamic selection options](setting-up-a-configuration-flow-with-dynamic-selection-options.md) — fetch real-time options from connected flows or APIs
+* [Custom selection options](setting-up-a-configuration-flow-with-custom-selection-options.md) — build flexible file pickers and advanced selector interfaces
+* [Mapping selection options](setting-up-a-configuration-flow-with-mapping-selection-options.md) — link and transform data between source and destination flows
+* [Field-level validation](setting-up-field-level-validation-in-configuration-flows.md) — enforce required inputs and format rules before submission
+* [Data mapping in flows](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps

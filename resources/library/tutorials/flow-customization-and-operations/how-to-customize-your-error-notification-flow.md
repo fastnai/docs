@@ -35,3 +35,10 @@ When a flow fails, Fastn can automatically forward errors to a **notification fl
 
 **With this setup, you have control over how error messages are handled and displayed for your flow.**
 
+---
+
+## Next steps
+
+* [How to customize success and error messages UI in flows](how-to-customize-success-and-error-messages-ui-in-flows.md) — customize the user-facing messages for errors
+* [Logger](../../../../flows/flow-setup-essentials/designing-a-flow/logger.md) — log error details for debugging
+* [Flow step settings](../../../../flows/flow-setup-essentials/flow-settings/flow-step-settings.md) — configure retry and error handling at the step level

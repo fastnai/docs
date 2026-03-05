@@ -23,7 +23,7 @@ Selection flows in Fastn allow you to fetch dynamic data (such as lists of items
 
 This will create a configuration flow that allows you to define the logic for your selection data source.
 
-> In this guide, we’ll build a selection flow using the **Google Cloud Storage** connector and its **Get Buckets** action.
+> In this guide, we'll build a selection flow using the **Google Cloud Storage** connector and its **Get Buckets** action.
 
 ## **2. Add a Connector Action Step**
 
@@ -32,7 +32,7 @@ Inside your new flow, add a step and choose **Connector Action**.
 This is where you define which connector and which specific endpoint will supply data to your selection flow.
 
 1. Under **Group Type**, select **Fastn Connectors**.
-   * You can also choose **Workspace Connectors** if you’ve built custom connectors in your workspace.
+   * You can also choose **Workspace Connectors** if you've built custom connectors in your workspace.
 2. Under **Connector**, select **Google Cloud Storage**.
 3. Under **Endpoint**, select **Get Buckets**.
 
@@ -41,13 +41,13 @@ This is where you define which connector and which specific endpoint will supply
 Your step now represents the request that will fetch a list of storage buckets from Google Cloud Storage.
 
 {% hint style="info" %}
-For any connector you choose, the available endpoints will depend on that connector’s supported actions. For example, selecting _HubSpot_ would display actions such as _Get Contacts_ or _Get Companies_.
+For any connector you choose, the available endpoints will depend on that connector's supported actions. For example, selecting _HubSpot_ would display actions such as _Get Contacts_ or _Get Companies_.
 {% endhint %}
 
 ## **3. Configure the Connector Action**
 
 After selecting the endpoint, click **Next**.\
-You’ll now see the **Connection Configuration** section.
+You'll now see the **Connection Configuration** section.
 
 Here you can decide how your widget or flow connects to an account:
 
@@ -58,10 +58,10 @@ Here you can decide how your widget or flow connects to an account:
 
 ## **4. Define the Configuration Parameters**
 
-Once your connection is set, you’ll see the **Configure** section.\
+Once your connection is set, you'll see the **Configure** section.\
 This section displays the endpoint URL and the fields you can map.
 
-For the **Google Cloud Storage – Get Buckets** endpoint, for example, you’ll see:
+For the **Google Cloud Storage – Get Buckets** endpoint, for example, you'll see:
 
 <figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
@@ -81,11 +81,11 @@ Here you can:
 
 <figure><img src="../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
-If successful, you’ll see the response data in the output preview.
+If successful, you'll see the response data in the output preview.
 
 ## **6. Add a Final Step**
 
-Once you’ve confirmed the connector response, you can add any follow-up step to process or format the data.
+Once you've confirmed the connector response, you can add any follow-up step to process or format the data.
 
 <figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
@@ -120,7 +120,7 @@ After saving, your newly created flow will appear in:
 You can now reference this selection flow from any configuration flow that supports **Selection Type: Mapping, Dynamic, or Custom**.
 {% endhint %}
 
-For example, in your **GCS Configuration Flow**, when you open the selection dropdown for a dynamic input, you’ll see **“GCS – Get Buckets”** listed as an available selection source.\
+For example, in your **GCS Configuration Flow**, when you open the selection dropdown for a dynamic input, you'll see **"GCS – Get Buckets"** listed as an available selection source.\
 You can then enable **pagination**, apply **limits**, or transform the results based on your configuration.
 
 <figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
@@ -132,3 +132,11 @@ Your selection flow is now ready and can be reused across configuration flows wh
 * [x] Populate dropdowns with live data from connectors (e.g., list of buckets, projects, or files).
 * [x] Handle large datasets using pagination and limit controls.
 * [x] Provide a seamless experience for users to select external data dynamically from widgets.
+
+---
+
+## Next steps
+
+* [How to set up a configuration flow](how-to-set-up-a-configuration-flow-in-fastn/README.md) — use selection flow data in configuration UIs
+* [How to set up pagination in your flow](../flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — handle large datasets in selection flows
+* [How to set up an activation flow](how-to-set-up-an-activation-flow.md) — automate tenant initialization with templates and webhooks

@@ -7,3 +7,12 @@ Connectors in Fastn let you connect your flows with external apps, APIs, and dat
 > You can manage authentication, add new endpoints, or even build your own connectors with HTTP APIs, gRPC, or database functions.
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Connector Types &#x26; Setup</strong></td><td>Learn about community, workspace, and organization connectors, and how to configure them.</td><td><a href="connector-types-and-setup.md">connector-types-and-setup.md</a></td></tr><tr><td><strong>Managing &#x26; Using Connectors</strong></td><td>Add, manage, and use connectors in your flows to enable real-time app-to-app communication.</td><td><a href="managing-and-using-connectors.md">managing-and-using-connectors.md</a></td></tr></tbody></table>
+
+---
+
+## Related topics
+
+* [Setting up Connector Authentication](setting-up-connector-authentication.md) — configure OAuth, API key, Bearer Token, or Custom Input for your connectors
+* [Connectors (Flow Component)](../designing-a-flow/connectors.md) — use connectors as steps inside your flows
+* [Data Mapping in Flows](../designing-a-flow/data-mapping-in-flows.md#connectors) — map connector outputs to other flow steps
+* [How to Manage Multiple App Connections Together](../../../resources/library/tutorials/flow-customization-and-operations/how-to-manage-multiple-app-connections-together.md) — tutorial on managing grouped connections

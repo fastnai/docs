@@ -10,7 +10,7 @@ description: >-
 
 ## **Configuring a Dynamic Selector**
 
-For instance, if you’re building a configuration for a file picker widget, you might include:
+For instance, if you're building a configuration for a file picker widget, you might include:
 
 * **Array variable (files)** – this represents the list of files that will appear dynamically through a selection flow.
 
@@ -70,7 +70,7 @@ For example:
 <figure><img src="../../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-When you save this configuration, your widget’s file picker will use the `Gcsgetfiles` flow to fetch available files dynamically.
+When you save this configuration, your widget's file picker will use the `Gcsgetfiles` flow to fetch available files dynamically.
 {% endhint %}
 
 > Users will then see a **file picker UI** that allows them to select files based on live data returned by that selection flow.
@@ -95,3 +95,13 @@ The widget automatically:
 <figure><img src="../../../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 > This creates a seamless dynamic experience, allowing end-users to select real-time data (e.g., files, connectors, records) directly from your Fastn widget.
+
+---
+
+## Related topics
+
+* [Static selection options](setting-up-a-configuration-flow-with-static-selection-options.md) — define fixed dropdown options that do not change
+* [Custom selection options](setting-up-a-configuration-flow-with-custom-selection-options.md) — build file pickers and advanced selector interfaces
+* [Mapping selection options](setting-up-a-configuration-flow-with-mapping-selection-options.md) — link and transform data between source and destination flows
+* [Connectors](../../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to third-party services to supply real-time data
+* [Data mapping in flows](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps

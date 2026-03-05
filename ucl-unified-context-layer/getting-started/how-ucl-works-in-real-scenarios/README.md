@@ -7,7 +7,7 @@ description: >-
 
 # How UCL Works in Real Scenarios?
 
-Before exploring the individual examples, make sure you’ve completed the basic setup steps below.
+Before exploring the individual examples, make sure you've completed the basic setup steps below.
 
 ### 1. Selecting Your Workspace in UCL <a href="#id-1.-selecting-your-workspace-in-ucl" id="id-1.-selecting-your-workspace-in-ucl"></a>
 
@@ -41,3 +41,10 @@ After completing your setup, you can explore these examples to see how UCL works
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Create a Google Doc and Share to Slack</strong></td><td>Automate document creation and sharing using UCL.</td><td><a href="create-a-google-doc-and-share-it-to-slack-using-ucl.md">create-a-google-doc-and-share-it-to-slack-using-ucl.md</a></td></tr><tr><td><strong>Assign Jira Tasks Using Natural Language</strong></td><td>Use UCL to automate task assignment and updates inside Jira.</td><td><a href="connect-ucl-for-task-assignment-in-jira.md">connect-ucl-for-task-assignment-in-jira.md</a></td></tr><tr><td><strong>Access Notion Data from Cursor</strong></td><td>Connect UCL to Cursor and fetch meeting summaries or notes from Notion.</td><td><a href="connect-ucl-to-cursor-and-access-data-from-notion.md">connect-ucl-to-cursor-and-access-data-from-notion.md</a></td></tr></tbody></table>
 
 > Each tutorial highlights how UCL integrates seamlessly with different AI clients, whether through the built-in Playground, embedded assistants, or external clients.
+
+---
+
+## Related topics
+
+* [Getting started with UCL](../) — set up your workspace and connect your first apps
+* [About Unified Context Layer](../about-unified-context-layer/) — understand how UCL routes, authenticates, and isolates agent actions

@@ -10,7 +10,7 @@ Fastn supports multiple authentication types, including **OAuth, Basic Auth, API
 
 ## **Setting up Connector Authentication**
 
-When [creating a connector](connector-types-and-setup.md#ii.-workspace-connectors) in the Fastn Workspace, you can configure its authentication by enabling ‘Activation’ to reveal all available authentication types, or you can access and edit these settings later by clicking the three dots at the top-right of your connector.
+When [creating a connector](connector-types-and-setup.md#ii.-workspace-connectors) in the Fastn Workspace, you can configure its authentication by enabling 'Activation' to reveal all available authentication types, or you can access and edit these settings later by clicking the three dots at the top-right of your connector.
 
 <figure><img src="../../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,3 +108,13 @@ In the same format, you can configure OAuth authentication for other connectors 
 }
 
 ```
+
+---
+
+## Related topics
+
+* [Connector Types & Setup](connector-types-and-setup.md) — learn about the different connector categories available in Fastn
+* [Managing & Using Connectors](managing-and-using-connectors.md) — add and use authenticated connectors in your flows
+* [Flow Settings](../flow-settings/) — enable custom authentication at the flow level
+* [How to Customize Your Authentication Flow](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md) — tutorial on customizing the authentication experience for end users
+* [How to Manage Multiple App Connections Together](../../../resources/library/tutorials/flow-customization-and-operations/how-to-manage-multiple-app-connections-together.md) — tutorial on managing grouped connections

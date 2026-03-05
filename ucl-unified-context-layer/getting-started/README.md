@@ -43,7 +43,7 @@ You need to have at least one app connected to see the AI Assistant.
 <figure><img src="../../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Use **Modify Selection** in the “Selected Apps” section to adjust your choices.
+Use **Modify Selection** in the "Selected Apps" section to adjust your choices.
 {% endhint %}
 
 Click on **Continue** in the top-right corner to move to the next step.
@@ -115,7 +115,7 @@ You can also **create a Custom App**, which means:
 
     Learn more about UCL Monitoring [here](about-unified-context-layer/monitoring/).
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.40 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2025-09-11 at 11.40.40 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## 8. Test in Playground
 
@@ -133,3 +133,12 @@ You can also **create a Custom App**, which means:
 
 {% embed url="https://docs.fastn.ai/ucl-use-cases/connect-ucl-to-cursor-and-access-data-from-notion" %}
 
+---
+
+## Related topics
+
+* [About Unified Context Layer](about-unified-context-layer/) — understand what UCL is and how it works
+* [Embedding UCL onto your AI agent](about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md) — step-by-step guide to integrating UCL into your product
+* [Creating a custom tool](about-unified-context-layer/creating-a-custom-tool.md) — build your own tool groups using natural language
+* [How UCL works in real scenarios](how-ucl-works-in-real-scenarios/) — explore practical examples across different AI clients
+* [Your first automation](../../../customer-facing-integrations/about-fastn/your-first-automation.md) — get started with your first Fastn-powered automation

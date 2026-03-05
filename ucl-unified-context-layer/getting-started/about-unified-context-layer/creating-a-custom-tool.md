@@ -10,7 +10,7 @@ description: UCL lets you easily build your own custom tool groups using natural
 
 <figure><img src="../../../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
 
-* Click **“Define a Custom App”** to launch the **App Builder Assistant** chat.
+* Click **"Define a Custom App"** to launch the **App Builder Assistant** chat.
 
 <figure><img src="../../../.gitbook/assets/image (574).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,20 +18,20 @@ description: UCL lets you easily build your own custom tool groups using natural
 
 Type a natural language prompt like:
 
-> _“Create a tool for Google Cloud Storage.”_
+> _"Create a tool for Google Cloud Storage."_
 
 The assistant may detect existing tooland ask where to add this app. For example:
 
-> _Would you like to add the Google Cloud Storage tool under one of these, or shall I create a new group (e.g., “GoogleCloudStorage” with OAuth2 authentication)?_
+> _Would you like to add the Google Cloud Storage tool under one of these, or shall I create a new group (e.g., "GoogleCloudStorage" with OAuth2 authentication)?_
 
 You respond:
 
-> _“Create a new group.”_
+> _"Create a new group."_
 
 <figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
 ℹ️ **Want to add to an existing tool instead?**\
-Click **“Add to Existing Tool”** and select the tool you'd like to edit or extend with new toolkits.
+Click **"Add to Existing Tool"** and select the tool you'd like to edit or extend with new toolkits.
 
 <figure><img src="../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,11 +62,11 @@ The assistant will suggest an OAuth2 setup for the new tool:
 
 Confirm when prompted:
 
-> _“Yes.”_
+> _"Yes."_
 
 The assistant will respond:
 
-> _“The ‘GoogleCloudStorage’ group is ready.”_
+> _"The 'GoogleCloudStorage' group is ready."_
 
 <figure><img src="../../../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
 
@@ -87,11 +87,11 @@ The assistant will suggest actions to expose:
 
 You can respond:
 
-> _“Add createBucket and listObjects.”_
+> _"Add createBucket and listObjects."_
 
-You’ll then receive:
+You'll then receive:
 
-> _The tools “createBucket” and “listObjects” have been created successfully in the “GoogleCloudStorage” group. You can now use them in your workflows._
+> _The tools "createBucket" and "listObjects" have been created successfully in the "GoogleCloudStorage" group. You can now use them in your workflows._
 
 <figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 
@@ -120,10 +120,19 @@ You’ll then receive:
 
 *   Use the AI Agent to test your tool with a natural command:
 
-    > _“Create a bucket in my Google Cloud Storage.”_
+    > _"Create a bucket in my Google Cloud Storage."_
 
 #### Additional Prompt Ideas for creating Custom Tool
 
-* “Create a tool for a fitness tracking app like Strava.”
-* “Build a tool that pulls ticket data from our in-house Jira instance.”
-* “Set up a custom tool for a REST API with POST and GET methods.”
+* "Create a tool for a fitness tracking app like Strava."
+* "Build a tool that pulls ticket data from our in-house Jira instance."
+* "Set up a custom tool for a REST API with POST and GET methods."
+
+---
+
+## Related topics
+
+* [Defining an MCP server](defining-an-mcp-server.md) — register an external MCP server as a tool in your UCL workspace
+* [Embedding UCL onto your AI agent](embedding-ucl-onto-your-ai-agent.md) — integrate your custom tools into a full AI agent environment
+* [Connecting apps](../../../flows/flow-setup-essentials/connecting-apps/) — authenticate and connect apps to use with your tools and flows
+* [How UCL works in real scenarios](../how-ucl-works-in-real-scenarios/) — see custom tools in action across practical AI client examples

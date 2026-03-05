@@ -7,7 +7,7 @@ description: >-
 
 # Setting up a Configuration Flow with Mapping Selection Options
 
-Mapping flows allow you to link and transform data between different variables or connectors. They’re used to define how input fields map to target fields, enabling precise control over data relationships in your configuration.
+Mapping flows allow you to link and transform data between different variables or connectors. They're used to define how input fields map to target fields, enabling precise control over data relationships in your configuration.
 
 ## Setting Up the Mapping Configuration
 
@@ -43,6 +43,16 @@ Once configured, click **Save**.
 
 ### **Map Output to Widget Fields**
 
-After you’ve selected your source and destination flows, the mapped values will automatically become available in your widget fields.
+After you've selected your source and destination flows, the mapped values will automatically become available in your widget fields.
 
 > Depending on your setup, editable keys and added fields will appear directly in the widget section, allowing further customization.
+
+---
+
+## Related topics
+
+* [Static selection options](setting-up-a-configuration-flow-with-static-selection-options.md) — define fixed dropdown options that do not change
+* [Dynamic selection options](setting-up-a-configuration-flow-with-dynamic-selection-options.md) — fetch real-time options from connected flows or APIs
+* [Custom selection options](setting-up-a-configuration-flow-with-custom-selection-options.md) — build file pickers and advanced selector interfaces
+* [Data mapper](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapper.md) — define and map variables between flow steps
+* [Data mapping in flows](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps

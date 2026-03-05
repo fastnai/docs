@@ -1,15 +1,15 @@
 # Database
 
-Use this to read from or write to Fastn’s internal database using SQL queries. Ideal for managing structured data inside your flows.
+Use this to read from or write to Fastn's internal database using SQL queries. Ideal for managing structured data inside your flows.
 
 <figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FBn2RQC3mMEMNXjqOoGR4%252Fimage.png%3Falt%3Dmedia%26token%3D478132ce-8b6e-4cee-95f0-b804eae3d357&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=5933f41e&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 * You can run queries to **select**, **insert**, or **create tables**.
-* Queries can also use outputs from earlier steps.
+* Queries can also use [outputs from earlier steps](data-mapping-in-flows.md).
 
 #### **Use Case: Manage Internal Data with SQL**
 
-Use the **Database** component to interact directly with Fastn’s internal storage. You can create tables, insert new records, or retrieve structured data using SQL. It’s perfect for managing intermediate or persistent datasets within your flows, such as syncing user information, logging transactions, or filtering active records.
+Use the **Database** component to interact directly with Fastn's internal storage. You can create tables, insert new records, or retrieve structured data using SQL. It's perfect for managing intermediate or persistent datasets within your flows, such as syncing user information, logging transactions, or filtering active records.
 
 **Example**\
 Retrieve a list of active users to feed into a downstream connector:
@@ -23,3 +23,13 @@ SELECT id, email FROM users WHERE active = True
 * Store and reuse structured data between flow steps
 * Perform SQL-based lookups and filters dynamically
 * Combine database results with outputs from earlier actions
+
+---
+
+## Related topics
+
+* [Connect to the Fastn DB](../data-and-storage/connect-to-the-fastn-db.md) — create tables and store flow data in Fastn's internal database
+* [Connecting External Databases](../data-and-storage/connecting-external-databases.md) — connect PostgreSQL, MySQL, or Redshift to your flows
+* [Data Mapping in Flows](data-mapping-in-flows.md#database) — map values into SQL queries and use query results downstream
+* [Variables](variables.md) — store query parameters or results for reuse across steps
+* [Loop](loop.md) — iterate over database query results

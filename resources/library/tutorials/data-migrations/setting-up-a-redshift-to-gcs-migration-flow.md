@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide walks you through the Redshift-to-GCS migration flow, explaining
-  each step so you understand what’s happening under the hood. The flow is
+  each step so you understand what's happening under the hood. The flow is
   designed to take queries from Redshift, process the
 ---
 
@@ -216,7 +216,7 @@ function handler(params) {
 
 <figure><img src="../../../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
 
-8. **Upload to GCS** – Sends the batch results to the tenant’s GCS bucket.
+8. **Upload to GCS** – Sends the batch results to the tenant's GCS bucket.
 
 <figure><img src="../../../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
 
@@ -238,7 +238,7 @@ function handler(params) {
 
 <figure><img src="../../../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
 
-**Else: Upload Results to GCS** – Sends the complete result set to the tenant’s GCS bucket.
+**Else: Upload Results to GCS** – Sends the complete result set to the tenant's GCS bucket.
 
 <figure><img src="../../../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
 
@@ -252,3 +252,13 @@ Once all queries are processed and results are uploaded, the main flow returns a
 This confirms that the migration is complete.
 
 <figure><img src="../../../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## Related topics
+
+* [Setting up an AWS Redshift to GCS migration widget](setting-up-an-aws-redshift-to-gcs-migration-widget.md) — configure the widget that triggers this migration flow
+* [Setting up a Google Drive to GCS migration flow](setting-up-a-google-drive-to-gcs-migration-flow.md) — migrate files from Google Drive to GCS using a similar flow pattern
+* [Connectors](../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to AWS Redshift and Google Cloud Storage in your flows
+* [Connecting external databases](../../../../flows/flow-setup-essentials/data-and-storage/connecting-external-databases.md) — link external databases like Redshift to your Fastn workspace
+* [Data mapping in flows](../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform query results between flow steps

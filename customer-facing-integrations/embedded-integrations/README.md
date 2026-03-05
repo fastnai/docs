@@ -63,9 +63,9 @@ You're building a storefront management tool. With Fastn, your users can connect
 
 <summary><strong>In-App Email Campaigns for CRM Users</strong></summary>
 
-You're running a custom CRM. By embedding a Fastn-powered “Send Campaign” widget, your users can link their **Gmail or Mailchimp accounts**, segment contacts, and launch campaigns—all without ever leaving your dashboard.
+You're running a custom CRM. By embedding a Fastn-powered "Send Campaign" widget, your users can link their **Gmail or Mailchimp accounts**, segment contacts, and launch campaigns—all without ever leaving your dashboard.
 
-> _Scenario:_ A sales rep filters 500 leads → clicks “Email Segment” → campaign is launched via Gmail with tracked metrics—all in one flow.
+> _Scenario:_ A sales rep filters 500 leads → clicks "Email Segment" → campaign is launched via Gmail with tracked metrics—all in one flow.
 
 </details>
 
@@ -73,9 +73,9 @@ You're running a custom CRM. By embedding a Fastn-powered “Send Campaign” wi
 
 <summary><strong>One-Click Data Export to Slack or Google Sheets</strong></summary>
 
-Let your users export reports, alerts, or product data with a single click. Add buttons like **“Send to Slack”** or **“Export to Sheets”** right in your UI using Fastn widgets.
+Let your users export reports, alerts, or product data with a single click. Add buttons like **"Send to Slack"** or **"Export to Sheets"** right in your UI using Fastn widgets.
 
-> _Scenario:_ A product manager views a sales dashboard in your app → hits “Send to Slack” → a summary is instantly posted to #growth-team.
+> _Scenario:_ A product manager views a sales dashboard in your app → hits "Send to Slack" → a summary is instantly posted to #growth-team.
 
 </details>
 
@@ -98,3 +98,13 @@ If your product offers advanced analytics, Fastn can power a seamless Salesforce
 > _Scenario:_ A sales ops manager connects their Salesforce account → selects specific pipelines → within seconds, key metrics like win rates and deal velocity appear in their dashboard, refreshed daily.
 
 </details>
+
+---
+
+## Related topics
+
+* [Getting Started with Fastn's Embedded Experience](getting-started-with-fastns-embedded-experience/) — learn how to set up and configure the embedded experience end to end
+* [Building and Configuring Widgets](getting-started-with-fastns-embedded-experience/building-and-configuring-widgets-in-fastn.md) — step-by-step guide to creating and deploying widgets for your users
+* [Workspace Management](workspace-management/) — manage tenants, settings, and collaboration within your workspace
+* [Deployment](workspace-management/deployment/) — release and pipeline tools for moving flows between environments
+* [Flow Setup Essentials](../../flows/flow-setup-essentials/) — design and configure the flows that power your embedded integrations

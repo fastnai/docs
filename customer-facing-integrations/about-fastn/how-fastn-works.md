@@ -15,17 +15,17 @@ Got 2 minutes? Check out a video overview of our product:
 
 Fastn makes it simple to connect your app with tools your users already use—like Slack, HubSpot, Shopify, and more. Whether you're automating workflows or embedding integrations into your platform, Fastn helps you do it without heavy backend setup.
 
-Here’s a quick look at how it works:
+Here's a quick look at how it works:
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3iSr2Tx8FvvuoLPncziH%2Fuploads%2FPSbWWdpZUjdMjpNPO4f0%2FUX%20Widget.mp4?alt=media&token=56541dbc-55b9-41df-8b89-6f60f7ae9ac5" %}
 
 ### 1. Choose a Connector
 
-Start by selecting a third-party app (like HubSpot or Slack) from Fastn’s Connector Catalog. These connectors are pre-built, so you don’t have to code from scratch.
+Start by selecting a third-party app (like HubSpot or Slack) from Fastn's Connector Catalog. These connectors are pre-built, so you don't have to code from scratch.
 
 ### 2. Connect Your Account
 
-Once you’ve selected a connector, sign in to your account (like HubSpot or Slack) to link it with Fastn. You can also use your own app credentials if needed.
+Once you've selected a connector, sign in to your account (like HubSpot or Slack) to link it with Fastn. You can also use your own app credentials if needed.
 
 ### 3. Create a Flow
 
@@ -40,9 +40,9 @@ These flows run automatically and help your tools work together without extra ef
 ### 4. Embed the Integration
 
 Want to let your users connect their accounts?\
-Add a widget or button inside your app using Fastn’s UI components. You can:
+Add a widget or button inside your app using Fastn's UI components. You can:
 
-* Show “Connect” / “Disconnect” buttons
+* Show "Connect" / "Disconnect" buttons
 * Run flows directly from your UI
 * Track integration status in your dashboard
 
@@ -56,4 +56,14 @@ Use the Fastn [dashboard](../embedded-integrations/workspace-management/analytic
 
 ### What This Means for You
 
-You don’t need to build integrations from scratch or manage OAuth complications. Fastn gives you the infrastructure, templates, and tools—all ready to plug in.
+You don't need to build integrations from scratch or manage OAuth complications. Fastn gives you the infrastructure, templates, and tools—all ready to plug in.
+
+---
+
+## Related topics
+
+* [Your First Automation](your-first-automation.md) — follow a step-by-step walkthrough to build your first integration flow
+* [Flow Setup Essentials](../../flows/flow-setup-essentials/) — learn how to design, trigger, and configure flows in Fastn
+* [UCL Getting Started](../../ucl-unified-context-layer/getting-started/) — connect AI agents to tools using the Unified Context Layer
+* [Embedded Integrations](../embedded-integrations/) — embed Fastn-powered automations directly into your product
+* [Glossary](../../resources/library/glossary.md) — definitions for key Fastn terms and concepts

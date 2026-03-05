@@ -1,6 +1,6 @@
 ---
 description: >-
-  This overview highlights UCL’s enterprise-grade security, compliance, and
+  This overview highlights UCL's enterprise-grade security, compliance, and
   governance capabilities.
 ---
 
@@ -29,7 +29,7 @@ Unified Context Layer (UCL) is built with enterprise security, compliance readin
 
 ### Isolation by Design
 
-* Each tenant’s connectors, flows, and agents run in fully isolated execution sandboxes, preventing cross-tenant data leakage.
+* Each tenant's connectors, flows, and agents run in fully isolated execution sandboxes, preventing cross-tenant data leakage.
 * Supports both logical isolation (per-tenant namespaces) and infrastructure isolation (dedicated environments).
 
 ## 2. Real-Time Monitoring & Logging
@@ -149,3 +149,12 @@ Unified Context Layer (UCL) is built with enterprise security, compliance readin
 * **Multi-Tenant Isolation:** Guarantees no cross-tenant leakage.
 * **Compliance-Focused Foundation:** Reduces audit prep and regulatory risks.
 * **End-to-End Observability:** Every action is traceable, explainable, and governable.
+
+---
+
+## Related topics
+
+* [Monitoring](./) — track usage metrics, tool calls, and logs across your tenants
+* [Multitenancy](../multitenancy.md) — how UCL isolates tenant data, credentials, and actions
+* [About Unified Context Layer](../../about-unified-context-layer/) — overview of UCL's architecture and security model
+* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — configure authentication for connectors used within UCL and flows
