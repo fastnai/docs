@@ -1,6 +1,6 @@
 # Flow Step Settings
 
-Each **flow component** in Fastn, such as a Switch, Loop, or Action step, includes a **Settings** panel where you can define behavior, retry logic, and notes for that step.
+Each **flow component** in Fastn, such as a [Switch](../designing-a-flow/switch.md), [Loop](../designing-a-flow/loop.md), or Action step, includes a **Settings** panel where you can define behavior, retry logic, and notes for that step.
 
 ### ⚙️Settings
 

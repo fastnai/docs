@@ -65,4 +65,3 @@ Explore basic API operations like CRUD, order routing, loops, and inventory quer
 * [Flow Settings](../flow-settings/) — configure execution, authentication, and error handling after importing a template
 * [Connecting Apps](../connecting-apps/) — set up connectors referenced in templates
 * [FAQs](../../../resources/library/faqs.md) — common questions about flows and best practices
-

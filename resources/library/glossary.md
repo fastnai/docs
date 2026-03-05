@@ -14,7 +14,7 @@ A customizable UI that allows end users to connect third-party applications to y
 
 ### Embed Fastn UCL (Unified Context Layer)
 
-Fastn's core orchestration engine that unifies integrations under a single JSON API or SDK call, supporting multi-tenant environments with secure routing and execution.
+Fastn's core orchestration engine that unifies integrations under a single JSON API or SDK call, supporting multi-tenant environments with secure routing and execution. For more information, see [Embedding UCL onto your AI agent](../../ucl-unified-context-layer/getting-started/about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md).
 
 ### Integration Hub
 
@@ -50,7 +50,7 @@ A plug-and-play embeddable interface (React component) provided by Fastn UCL tha
 
 ### **AI Agent**
 
-A component in Fastn Flows that maintains context, interprets user input, and interacts with external systems via enabled actions. It leverages the MCP layer and OpenAI models to perform reasoning or task execution.
+A component in Fastn Flows that maintains context, interprets user input, and interacts with external systems via enabled actions. It leverages the MCP layer and OpenAI models to perform reasoning or task execution. For more information, see [AI Agent and AI Action in flows](../../flows/flow-setup-essentials/designing-a-flow/ai-agent-and-ai-action-in-flows.md).
 
 ### **AI Action**
 
@@ -58,11 +58,11 @@ A flow step where AI performs a task using the input from previous steps. These 
 
 ### **Connector**
 
-A prebuilt integration with third-party apps (e.g., Notion, Jira, Slack). Connectors handle OAuth, token management, and expose available actions that can be executed in flows or via agents.
+A prebuilt integration with third-party apps (e.g., Notion, Jira, Slack). Connectors handle OAuth, token management, and expose available actions that can be executed in flows or via agents. For more information, see [Connectors in flows](../../flows/flow-setup-essentials/designing-a-flow/connectors.md).
 
 ### **Workspace**
 
-A logical grouping within Fastn UCL that contains connectors, actions, and environment configurations for a specific app, tenant, or team. Each workspace has a unique Space ID and supports isolation.
+A logical grouping within Fastn UCL that contains connectors, actions, and environment configurations for a specific app, tenant, or team. Each workspace has a unique Space ID and supports isolation. For more information, see [Workspace management](../../customer-facing-integrations/embedded-integrations/workspace-management/README.md).
 
 ### **Tenant ID**
 
@@ -70,7 +70,7 @@ An identifier used to distinguish individual tenants (customers or users) within
 
 ### **MCP (Model Context Protocol)**
 
-An open protocol that standardizes how AI agents describe actions and interact with external tools. Fastn UCL builds on top of MCP to make it production-ready by adding infrastructure, security, and multitenant context handling.
+An open protocol that standardizes how AI agents describe actions and interact with external tools. Fastn UCL builds on top of MCP to make it production-ready by adding infrastructure, security, and multitenant context handling. For more information, see [Defining an MCP server](../../ucl-unified-context-layer/getting-started/about-unified-context-layer/defining-an-mcp-server.md).
 
 ### **MCP Server URL**
 
@@ -86,7 +86,7 @@ A local configuration file in your codebase that stores sensitive variables such
 
 ### **Flow**
 
-A no-code/low-code visual automation built inside Fastn that sequences steps like triggers, connectors, AI agents, and logic to perform a complete task.
+A no-code/low-code visual automation built inside Fastn that sequences steps like triggers, connectors, AI agents, and logic to perform a complete task. For more information, see [Designing a flow](../../flows/flow-setup-essentials/designing-a-flow/README.md).
 
 ### **Flow Types**
 
@@ -94,15 +94,15 @@ Different kinds of flows tailored to use cases like scheduled execution, webhook
 
 ### **Trigger**
 
-The starting point of a flow. It defines the condition or event that initiates the flow, such as a time-based schedule, webhook, or external command.
+The starting point of a flow. It defines the condition or event that initiates the flow, such as a time-based schedule, webhook, or external command. For more information, see [Trigger](../../flows/flow-setup-essentials/designing-a-flow/trigger.md).
 
 ### **Variables & States**
 
-Used within flows to store and pass data between steps. Variables are static, while states are updated dynamically during flow execution.
+Used within flows to store and pass data between steps. Variables are static, while states are updated dynamically during flow execution. For more information, see [Variables](../../flows/flow-setup-essentials/designing-a-flow/variables.md).
 
 ### **Multitenancy**
 
-The architecture in Fastn UCL that allows multiple tenants to securely share the same infrastructure while maintaining strict separation of data, context, and configuration.
+The architecture in Fastn UCL that allows multiple tenants to securely share the same infrastructure while maintaining strict separation of data, context, and configuration. For more information, see [Multitenancy](../../ucl-unified-context-layer/getting-started/about-unified-context-layer/multitenancy.md).
 
 ### **Space ID**
 

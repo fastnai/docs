@@ -12,7 +12,7 @@ It helps you start automated actions based on real-time activities such as new m
 
 <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-* After selecting the app, connect and authenticate your account to enable access.
+* After selecting the app, [connect and authenticate](../connecting-apps/setting-up-connector-authentication.md) your account to enable access.
 
 <figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 

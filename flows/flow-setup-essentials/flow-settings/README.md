@@ -89,4 +89,3 @@ The **Visuals** section customizes the flow editor interface.
 * [How to Customize Your Error Notification Flow](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-error-notification-flow.md) — tutorial on customizing `fastnErrorNotification`
 * [How to Customize Success and Error Messages UI in Flows](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-success-and-error-messages-ui-in-flows.md) — tutorial on customizing response appearance
 * [Setting up Connector Authentication](../connecting-apps/setting-up-connector-authentication.md) — configure OAuth and API key authentication for connectors
-
