@@ -64,6 +64,7 @@
   * [Data & Storage](flows/flow-setup-essentials/data-and-storage/README.md)
     * [Connect to the Fastn DB](flows/flow-setup-essentials/data-and-storage/connect-to-the-fastn-db.md)
     * [Connecting External Databases](flows/flow-setup-essentials/data-and-storage/connecting-external-databases.md)
+  * [Configuration Flows](flows/flow-setup-essentials/configuration-flows.md)
   * [Flow Settings](flows/flow-setup-essentials/flow-settings/README.md)
     * [Flow Step Settings](flows/flow-setup-essentials/flow-settings/flow-step-settings.md)
     * [Using Templates](flows/flow-setup-essentials/flow-settings/using-templates.md)
