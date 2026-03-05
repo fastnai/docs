@@ -26,7 +26,7 @@ Next, define your chunking strategy.&#x20;
 This determines how the input text will be divided before processing, allowing the model to handle longer content efficiently.&#x20;
 {% endhint %}
 
-* You’ll then specify the characters per chunk, such as 1000, which sets the size of each text segment. Additionally, you can configure chunk overlap characters, for example, 200, to maintain context across adjacent chunks.
+* You'll then specify the characters per chunk, such as 1000, which sets the size of each text segment. Additionally, you can configure chunk overlap characters, for example, 200, to maintain context across adjacent chunks.
 
 <figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,3 +43,13 @@ This determines how the input text will be divided before processing, allowing t
 * The summarized output can then be used as input for other steps in your flow, or you can connect it with other components to further process or store the summarized data.&#x20;
 
 > You can also use this step to summarize text received dynamically from other sources, such as connectors, variables, or AI actions, before passing it to the next stage in your automation.
+
+---
+
+## Related topics
+
+* [AI Agent & AI Action in Flows](ai-agent-and-ai-action-in-flows.md) — combine summarization with multi-step AI agent workflows
+* [Connectors](connectors.md) — fetch content from external apps to summarize
+* [Data Mapper](data-mapper.md) — transform summarized output before passing it to the next step
+* [Variables](variables.md) — store summarization results for reuse across flow steps
+* [Flow Response: Success & Error](flow-response-success-and-error.md) — return summarized content as the flow output

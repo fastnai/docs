@@ -94,3 +94,11 @@ description: >-
 * You can customize the logic to match your own authentication provider, add extra validation rules, or enrich the returned user object.
 
 > With this setup, you decide exactly how requests are authenticated and what user details are returned.
+
+---
+
+## Related topics
+
+* [Flow settings](../../../../flows/flow-setup-essentials/flow-settings/README.md) — configure step-level settings and execution options for your flows
+* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — establish OAuth and API key connections to external services
+* [How to customize your error notification flow](how-to-customize-your-error-notification-flow.md) — forward authentication failures and other errors to notification destinations

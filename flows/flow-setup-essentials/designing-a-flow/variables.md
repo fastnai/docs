@@ -20,3 +20,13 @@ Boolean isSynced = False
 * Maintain consistent values across multiple flow actions
 * Simplify logic handling with flags and counters
 * Dynamically store and update configuration or temporary data
+
+---
+
+## Related topics
+
+* [Data Mapping in Flows](data-mapping-in-flows.md#variables) — reference variables in other flow steps using `{{variables.name}}`
+* [Data Mapper](data-mapper.md) — transform and reshape variable values before passing them forward
+* [Loop](loop.md) — use variables as counters or flags to control loop behavior
+* [Switch](switch.md) — drive conditional logic with variable values
+* [Custom Code](custom-code.md) — access and modify variables programmatically in JavaScript, Python, or C#

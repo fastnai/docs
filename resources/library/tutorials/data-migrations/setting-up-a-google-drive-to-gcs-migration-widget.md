@@ -151,7 +151,7 @@ function handler(params) {
 ```
 
 * **Switch**
-  * If tenant doesn’t exist → return error
+  * If tenant doesn't exist → return error
   * Else → proceed to Loop Over Templates
 
 <figure><img src="../../../../.gitbook/assets/image (492).png" alt=""><figcaption></figcaption></figure>
@@ -265,3 +265,13 @@ Once set up, this Fastn widget gives your users a seamless experience to:
 * Configure what to sync
 * Schedule automated migrations
 * Push selected data to Google Cloud Storage reliably
+
+---
+
+## Related topics
+
+* [Setting up a Google Drive to GCS migration flow](setting-up-a-google-drive-to-gcs-migration-flow.md) — build the underlying flow that transfers files from Drive to GCS
+* [Setting up an AWS Redshift to GCS migration widget](setting-up-an-aws-redshift-to-gcs-migration-widget.md) — configure a migration widget for Redshift using the same widget pattern
+* [Building and configuring widgets](../../../../customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/building-and-configuring-widgets-in-fastn.md) — general guide to creating and configuring widgets in Fastn
+* [Connectors](../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to Google Drive and Google Cloud Storage in your flows
+* [How to set up pagination in your flow](../flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — handle large file lists efficiently with paginated fetching

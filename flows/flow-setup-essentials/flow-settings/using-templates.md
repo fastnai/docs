@@ -56,3 +56,13 @@ Send alerts and updates across Slack and other platforms based on user or system
 
 Explore basic API operations like CRUD, order routing, loops, and inventory queries using a sample Pet Store.
 
+---
+
+## Related topics
+
+* [Flow Setup Essentials](../) — understand flow types and triggers before using a template
+* [Designing a Flow](../designing-a-flow/) — browse all flow components available in templates
+* [Flow Settings](../flow-settings/) — configure execution, authentication, and error handling after importing a template
+* [Connecting Apps](../connecting-apps/) — set up connectors referenced in templates
+* [FAQs](../../../resources/library/faqs.md) — common questions about flows and best practices
+

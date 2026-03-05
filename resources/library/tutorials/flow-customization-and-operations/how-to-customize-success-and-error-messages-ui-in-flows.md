@@ -112,3 +112,11 @@ After successful authentication by using the **Connect** button, a UI message ap
 
 > **Activation Succeeded**\
 > Your Google account has been activated successfully!
+
+---
+
+## Related topics
+
+* [Flow response: success and error](../../../../flows/flow-setup-essentials/designing-a-flow/flow-response-success-and-error.md) — configure what your flow returns when it succeeds or fails
+* [Flow settings](../../../../flows/flow-setup-essentials/flow-settings/README.md) — configure step-level settings and execution options for your flows
+* [How to customize your error notification flow](how-to-customize-your-error-notification-flow.md) — forward errors to Slack, email, or other notification destinations

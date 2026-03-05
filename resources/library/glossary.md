@@ -14,7 +14,7 @@ A customizable UI that allows end users to connect third-party applications to y
 
 ### Embed Fastn UCL (Unified Context Layer)
 
-Fastn’s core orchestration engine that unifies integrations under a single JSON API or SDK call, supporting multi-tenant environments with secure routing and execution.
+Fastn's core orchestration engine that unifies integrations under a single JSON API or SDK call, supporting multi-tenant environments with secure routing and execution.
 
 ### Integration Hub
 
@@ -78,7 +78,7 @@ The endpoint that agents use to send and receive structured action commands. Fas
 
 ### **Action**
 
-A predefined operation exposed by a connector (e.g., “Get Tasks” in Notion or “Send Message” in Slack). Actions are selectable per connector and executable through agents or flows.
+A predefined operation exposed by a connector (e.g., "Get Tasks" in Notion or "Send Message" in Slack). Actions are selectable per connector and executable through agents or flows.
 
 ### **Environment File (.env)**
 
@@ -119,3 +119,12 @@ Indicates a successful OAuth or API connection to a third-party app. Once a conn
 ### **Codespaces (GitHub)**
 
 A browser-based cloud development environment that allows users to run Fastn UCL integration projects without needing to install dependencies locally.
+
+---
+
+## Related topics
+
+* [FAQs](faqs.md) — answers to common questions about flows, design, and troubleshooting
+* [How Fastn works](../../customer-facing-integrations/about-fastn/how-fastn-works.md) — conceptual overview of the Fastn platform and its core components
+* [Flow setup essentials](../../flows/flow-setup-essentials/README.md) — practical reference for building and configuring flows
+* [Connecting apps](../../flows/flow-setup-essentials/connecting-apps/README.md) — how connectors and authentication work in Fastn

@@ -91,7 +91,16 @@ Log synced record IDs or counts to the Fastn database to track actual progress a
 
 <summary>What date format should I use in filters or payloads?</summary>
 
-Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn’s built-in transformations to convert it before syncing.
+Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn's built-in transformations to convert it before syncing.
 
 </details>
+
+---
+
+## Related topics
+
+* [Designing a flow](../../flows/flow-setup-essentials/designing-a-flow/README.md) — reference for all flow components including triggers, loops, and switches
+* [Flow response: success and error](../../flows/flow-setup-essentials/designing-a-flow/flow-response-success-and-error.md) — configure what your flow returns on success or failure
+* [Data mapping in flows](../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
+* [Flow settings](../../flows/flow-setup-essentials/flow-settings/README.md) — configure step-level settings, templates, and execution options
 

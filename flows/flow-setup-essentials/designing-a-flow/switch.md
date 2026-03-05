@@ -24,3 +24,13 @@ Case2: status = Str "pending" → Action = SendReminder
 * Introduce branching logic to handle multiple scenarios
 * Automatically trigger different actions based on conditions
 * Simplify complex decision-making within a single flow
+
+---
+
+## Related topics
+
+* [Data Mapping in Flows](data-mapping-in-flows.md#switch) — map values into switch conditions from previous steps
+* [Loop](loop.md) — repeat actions for each item, often combined with conditional logic
+* [Variables](variables.md) — store flags or state to drive switch conditions
+* [Flow Response: Success & Error](flow-response-success-and-error.md) — return different responses based on switch outcomes
+* [Merge](flow-transformation/merge.md) — combine data from multiple switch branches back into one path
