@@ -89,7 +89,7 @@ For Example:
 
 * Passing specific fields to another connector for processing.
 * Filtering the dataset based on certain dimensions before performing calculations.
-* Using split data as input for AI agents or custom code steps.
+* Using split data as input for [AI agents](../ai-agent-and-ai-action-in-flows.md) or [custom code](../custom-code.md) steps.
 
 ---
 

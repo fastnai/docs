@@ -82,7 +82,7 @@ _This means list items from the second input will be added after the first list.
 
 Once your merge is complete:
 
-* Add a **Success Message** component at the end of the flow
+* Add a [**Success Message**](../flow-response-success-and-error.md) component at the end of the flow
 * Output the merged value inside this step
 * Run the flow to confirm it executes successfully
 

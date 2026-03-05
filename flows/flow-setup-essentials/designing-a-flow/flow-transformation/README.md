@@ -20,4 +20,4 @@ Below are the key transformation components:
 * [Data Mapping in Flows](../data-mapping-in-flows.md) — map data into transformation components from previous steps
 * [Loop](../loop.md) — iterate over data before or after applying transformations
 * [Connectors](../connectors.md) — fetch data from external apps to transform in your flow
-* [How to Set Up Pagination in Your Flow](../../../../resources/library/tutorials/flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — tutorial on handling large datasets with pagination and transformation
+* [How to set up pagination in your flow](../../../../resources/library/tutorials/flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md) — tutorial on handling large datasets with pagination and transformation

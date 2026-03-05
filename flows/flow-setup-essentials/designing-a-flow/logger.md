@@ -20,7 +20,7 @@ Use the **Logger** component to record messages, variable values, or object data
 
 ### **Where to view logs?**
 
-All your flow logs are available in the **Logs** section, accessible from the left navigation panel inside your Fastn workspace.
+All your flow logs are available in the **Logs** section, accessible from the left navigation panel inside your Fastn workspace. You can also view aggregated flow execution metrics on the [Analytics and Monitoring Dashboard](../../../customer-facing-integrations/embedded-integrations/workspace-management/analytics-and-monitoring-dashboard.md).
 
 <figure><img src="../../../.gitbook/assets/image (659).png" alt=""><figcaption></figcaption></figure>
 
