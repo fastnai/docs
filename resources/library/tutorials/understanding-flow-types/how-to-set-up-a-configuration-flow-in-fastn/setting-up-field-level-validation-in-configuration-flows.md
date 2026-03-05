@@ -90,3 +90,12 @@ jsCopyEditasync function validator(data = [
 * Ensures both **"Channel Name"** and **"Webhook URL"** are not empty.
 * Validates that **"Webhook URL"** is in a correct URL format.
 * If either field fails, the form will block submission and show appropriate error messages.
+
+---
+
+## Related topics
+
+* [How to set up a configuration flow](README.md) — overview of configuration flow creation and field setup
+* [Flow settings](../../../../../flows/flow-setup-essentials/flow-settings/README.md) — step-level settings and execution configuration options
+* [Data mapping in flows](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
+* [Variables](../../../../../flows/flow-setup-essentials/designing-a-flow/variables.md) — store and reuse values across flow steps

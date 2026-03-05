@@ -97,8 +97,8 @@ description: >-
 
 ---
 
-## Related topics
+## Next steps
 
-* [Flow settings](../../../../flows/flow-setup-essentials/flow-settings/README.md) — configure step-level settings and execution options for your flows
-* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — establish OAuth and API key connections to external services
-* [How to customize your error notification flow](how-to-customize-your-error-notification-flow.md) — forward authentication failures and other errors to notification destinations
+* [Previewing and integrating widgets](../../../../customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md) — embed your custom auth flow into a widget
+* [How to customize your error notification flow](how-to-customize-your-error-notification-flow.md) — handle errors alongside custom authentication
+* [Setting up connector authentication](../../../../flows/flow-setup-essentials/connecting-apps/setting-up-connector-authentication.md) — reference for OAuth, API key, and Bearer Token options

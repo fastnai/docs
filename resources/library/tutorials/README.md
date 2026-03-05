@@ -6,15 +6,11 @@ description: >-
 
 # Tutorials
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Flow Types</strong></td><td>Learn how to set up, select, configure, and activate different flow types.</td><td><a href="understanding-flow-types/">understanding-flow-types</a></td></tr><tr><td><strong>Customization & Operations</strong></td><td>Discover how to tailor flows and manage operational settings efficiently.</td><td><a href="flow-customization-and-operations/how-to-customize-your-error-notification-flow.md">how-to-customize-your-error-notification-flow.md</a></td></tr><tr><td><strong>Data Migration</strong></td><td>Step through best practices for migrating and handling your data safely.</td><td><a href="data-migrations/">data-migrations</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Flow Types</strong></td><td>Learn how to set up, select, configure, and activate different flow types.</td><td><a href="understanding-flow-types/">understanding-flow-types</a></td></tr><tr><td><strong>Customization &#x26; Operations</strong></td><td>Discover how to tailor flows and manage operational settings efficiently.</td><td><a href="flow-customization-and-operations/how-to-customize-your-error-notification-flow.md">how-to-customize-your-error-notification-flow.md</a></td></tr><tr><td><strong>Data Migration</strong></td><td>Step through best practices for migrating and handling your data safely.</td><td><a href="data-migrations/">data-migrations</a></td></tr></tbody></table>
 
 ---
 
 ## Related topics
 
-* [Understanding flow types](understanding-flow-types/README.md) — learn about activation, selection, and configuration flows
-* [Flow customization and operations](flow-customization-and-operations/README.md) — tailor authentication, error handling, and connection management
-* [Data migrations](data-migrations/README.md) — migrate files and datasets between storage systems
 * [Flow setup essentials](../../../flows/flow-setup-essentials/README.md) — foundational concepts for designing and running flows
 * [Designing a flow](../../../flows/flow-setup-essentials/designing-a-flow/README.md) — reference for all flow design components and patterns
-

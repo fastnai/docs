@@ -108,3 +108,11 @@ Use a known dataset (e.g., an Acumatica table with 22,000+ records) for testing:
 
 **Pagination is commonly supported by many APIs that return large datasets, including those that follow patterns like OData.** This makes the approach effective for systems such as Acumatica, Dynamics, and many others with batch data access capabilities.
 
+---
+
+## Related topics
+
+* [Loop](../../../../flows/flow-setup-essentials/designing-a-flow/loop.md) — iterate over arrays and collections within a flow
+* [Limit](../../../../flows/flow-setup-essentials/designing-a-flow/flow-transformation/limit.md) — restrict the number of records returned by a flow step
+* [Data mapping in flows](../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
+* [Connectors](../../../../flows/flow-setup-essentials/designing-a-flow/connectors.md) — connect to third-party services that support paginated data retrieval

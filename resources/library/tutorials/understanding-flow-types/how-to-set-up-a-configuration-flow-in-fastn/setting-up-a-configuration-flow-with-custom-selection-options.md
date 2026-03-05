@@ -23,7 +23,7 @@ With **Custom Configuration Flows**, you can design any kind of configuration fl
 
 ### **Using Custom Flow for Advanced File Picker**
 
-> In this case, we’re using a **Custom Flow** to build a **File Picker**, because the UI is more customizable and allows you to define the exact structure and behavior you need. You can add any fields, apply your own design, and adjust the flow dynamically to fit your use case.
+> In this case, we're using a **Custom Flow** to build a **File Picker**, because the UI is more customizable and allows you to define the exact structure and behavior you need. You can add any fields, apply your own design, and adjust the flow dynamically to fit your use case.
 
 ### Add File Type Restrictions
 
@@ -34,7 +34,7 @@ With **Custom Configuration Flows**, you can design any kind of configuration fl
 <figure><img src="../../../../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-This ensures the widget will only accept the file types you’ve defined.
+This ensures the widget will only accept the file types you've defined.
 {% endhint %}
 
 ### Map Output to a Field
@@ -44,3 +44,13 @@ If you have a widget field (e.g., **files**), map the file picker output to it. 
 <figure><img src="../../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 > **Result:** The widget can now collect files from users while respecting the restrictions you set.
+
+---
+
+## Related topics
+
+* [Static selection options](setting-up-a-configuration-flow-with-static-selection-options.md) — define fixed dropdown options that do not change
+* [Dynamic selection options](setting-up-a-configuration-flow-with-dynamic-selection-options.md) — fetch real-time options from connected flows or APIs
+* [Mapping selection options](setting-up-a-configuration-flow-with-mapping-selection-options.md) — link and transform data between source and destination flows
+* [Custom code](../../../../../flows/flow-setup-essentials/designing-a-flow/custom-code.md) — run JavaScript functions inside a flow step for advanced logic
+* [Data mapping in flows](../../../../../flows/flow-setup-essentials/designing-a-flow/data-mapping-in-flows.md) — map and transform data between flow steps
