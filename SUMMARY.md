@@ -7,7 +7,6 @@
   * [Your First Automation](customer-facing-integrations/about-fastn/your-first-automation.md)
 * [Embedded Integrations](customer-facing-integrations/embedded-integrations/README.md)
   * [Getting Started with Fastn’s Embedded Experience](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/README.md)
-    * [Your First Embedded Integration Widget](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/your-first-embedded-integration-widget.md)
     * [Building and Configuring Widgets in Fastn](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/building-and-configuring-widgets-in-fastn.md)
     * [Previewing and Integrating Widgets](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/previewing-and-integrating-widgets.md)
     * [Custom Webhooks: Automatic Triggers](customer-facing-integrations/embedded-integrations/getting-started-with-fastns-embedded-experience/custom-webhooks-automatic-triggers.md)
@@ -73,6 +72,7 @@
 
 * [Library](resources/library/README.md)
   * [Tutorials](resources/library/tutorials/README.md)
+    * [Your First Embedded Integration Widget](resources/library/tutorials/your-first-embedded-integration-widget.md)
     * [Understanding Flow Types](resources/library/tutorials/understanding-flow-types/README.md)
       * [How to Set Up an Activation Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-an-activation-flow.md)
       * [How to Set Up a Selection Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-selection-flow.md)
