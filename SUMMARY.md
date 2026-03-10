@@ -68,6 +68,17 @@
     * [Flow Step Settings](flows/flow-setup-essentials/flow-settings/flow-step-settings.md)
     * [Using Templates](flows/flow-setup-essentials/flow-settings/using-templates.md)
 
+## Python SDK
+
+* [Python SDK Reference](python-sdk/README.md)
+  * [Client](python-sdk/client.md)
+  * [Connectors and Tools](python-sdk/connectors-and-tools.md)
+  * [Flows](python-sdk/flows.md)
+  * [Authentication](python-sdk/authentication.md)
+  * [Configuration](python-sdk/configuration.md)
+  * [CLI Reference](python-sdk/cli-reference.md)
+  * [Exceptions](python-sdk/exceptions.md)
+
 ## Resources
 
 * [Library](resources/library/README.md)
