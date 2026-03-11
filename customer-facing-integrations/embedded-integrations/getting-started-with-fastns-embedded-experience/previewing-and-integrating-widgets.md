@@ -12,7 +12,7 @@ description: >-
 * On the **Widgets** page, click the **Integrate** button.
 * Click **Preview**.
 
-<figure><img src="../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (156).png" alt="Widgets page with the Integrate button highlighted for accessing preview and embedding options"><figcaption></figcaption></figure>
 
 *   The **Preview** button opens the widget preview in a new browser tab.\
     You can change the default `tenantId` by updating the query parameters in the URL.
@@ -20,7 +20,7 @@ description: >-
     > ⚠️ The preview page always shows the **DRAFT** version of the widget.\
     > Use the `env` query parameter if you want to preview a widget that has been deployed to another environment.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv8JkgWWaW-bIZ6w-8-cHKoo69F_owSA6DHC4JZoBQxunAB5tvwILvbXr1Kmd9l5d5zUoFx8Bjc8fVLMaXOUyERCELO-rJ4EmSYS2XgtEcPR4pUgvllB4OlEIezSh5y_n9vQxgjQ?key=U8WaqUSZtzeWDdAYuCG_tQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv8JkgWWaW-bIZ6w-8-cHKoo69F_owSA6DHC4JZoBQxunAB5tvwILvbXr1Kmd9l5d5zUoFx8Bjc8fVLMaXOUyERCELO-rJ4EmSYS2XgtEcPR4pUgvllB4OlEIezSh5y_n9vQxgjQ?key=U8WaqUSZtzeWDdAYuCG_tQ" alt="Widget preview page opened in a new browser tab showing the draft version of the widget"><figcaption></figcaption></figure>
 
 ## Setting up Custom Authentication
 
@@ -32,13 +32,13 @@ description: >-
     2. Go to the **Settings** tab.
     3. Enable **Custom Authentication** and click **Save**.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe80L20L4kXYOPA9MpmtvxKHtG45_HmlUCQvbzAyr7_a9uWBrQ0vC8kTF4smVkZOlm4JPdb4nSnGnHGe-yy0lEOqIjMn-RLZ55Y0GpTes-K1jmFWUt-KCSjP70XnmyPFH_GVoNUUQ?key=U8WaqUSZtzeWDdAYuCG_tQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe80L20L4kXYOPA9MpmtvxKHtG45_HmlUCQvbzAyr7_a9uWBrQ0vC8kTF4smVkZOlm4JPdb4nSnGnHGe-yy0lEOqIjMn-RLZ55Y0GpTes-K1jmFWUt-KCSjP70XnmyPFH_GVoNUUQ?key=U8WaqUSZtzeWDdAYuCG_tQ" alt="Integrate settings tab with the Custom Authentication toggle enabled"><figcaption></figcaption></figure>
 
 <br>
 
 * Once saved, a flow called `fastnCustomAuth` is automatically imported into your workspace and can be customized as needed.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBIaF46uTlS2ZvEUDUIfTwhX992eTNMO-leuFgmP44dAhYiJ4Xer9mrngkvon4SKbogQxKVjcrFTlpvz9jc5d4hYkCyTOAYXc-eiU9bWq29ae9ZcbDaVR0VRVvFRHYGcbx5jUs7g?key=U8WaqUSZtzeWDdAYuCG_tQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBIaF46uTlS2ZvEUDUIfTwhX992eTNMO-leuFgmP44dAhYiJ4Xer9mrngkvon4SKbogQxKVjcrFTlpvz9jc5d4hYkCyTOAYXc-eiU9bWq29ae9ZcbDaVR0VRVvFRHYGcbx5jUs7g?key=U8WaqUSZtzeWDdAYuCG_tQ" alt="Fastn flow editor showing the auto-imported fastnCustomAuth flow for custom token validation"><figcaption></figcaption></figure>
 
 By default, this flow uses a Fastn user token, but you can update it with your own logic or API calls to validate the token.
 
@@ -47,7 +47,7 @@ By default, this flow uses a Fastn user token, but you can update it with your o
 
 If authentication succeeds, the widget loads normally. If it fails, an error message is displayed.
 
-<figure><img src="../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (157).png" alt="Widget displaying an authentication error message when custom auth validation fails"><figcaption></figcaption></figure>
 
 ## Integrating Widgets in Your App
 
@@ -55,7 +55,7 @@ If authentication succeeds, the widget loads normally. If it fails, an error mes
 
 * In the **Widgets** page, click **Integrate**.
 
-<figure><img src="../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (158).png" alt="Widgets page showing the Integrate button for accessing iframe embedding options"><figcaption></figcaption></figure>
 
 * Select **Iframe** to generate the React or HTML code snippet.
 * Copy and paste the code into your React application.
@@ -70,7 +70,7 @@ authToken: "<AUTH_TOKEN>"  // Token used in the custom auth flow
 
 You can customize the default widget styling by clicking the **Styling** tab, making changes, and pressing **Save**.<br>
 
-<figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (159).png" alt="Integrate panel showing the Styling tab with customizable widget appearance options"><figcaption></figcaption></figure>
 
 ### Headless React Package
 
