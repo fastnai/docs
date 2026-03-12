@@ -1,12 +1,13 @@
 ---
 description: >-
-  This section outlines how to start, from setting up your account to
-  understanding how UCL manages external systems, Connections, and Actions.
+  Connect your AI agents to 250+ enterprise apps with managed authentication,
+  multi-tenant support, and sub-second execution through Fastn's Unified Context
+  Layer (UCL).
 ---
 
-# Getting Started
+# AI agent integrations
 
-Unified Context Layer (UCL) enables your SaaS platforms to deliver embedded, secure, and scalable AI integrations.&#x20;
+Unified Context Layer (UCL) enables your SaaS platforms to deliver embedded, secure, and scalable AI integrations. This section covers setting up your account, connecting apps, embedding AI clients, and understanding how UCL manages external systems, connections, and actions.&#x20;
 
 ## **1. Workspace Selection**
 
