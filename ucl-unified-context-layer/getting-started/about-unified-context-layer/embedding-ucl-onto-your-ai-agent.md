@@ -38,11 +38,11 @@ This is how your AI agent looks with and without UCL embedding:
 
 {% tabs %}
 {% tab title="With Embedding" %}
-<figure><img src="../../../.gitbook/assets/With Embedding.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/With Embedding.png" alt="Architecture diagram of an AI agent with UCL embedding, showing unified tool access and managed authentication"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Without Embedding" %}
-<figure><img src="../../../.gitbook/assets/Frame 1750.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Frame 1750.png" alt="Architecture diagram of an AI agent without UCL, showing separate manual integrations for each tool"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -68,7 +68,7 @@ When you first log in to UCL, a workspace titled "My Workspace" is created by de
 
 <br>
 
-<figure><img src="../../../.gitbook/assets/image (585).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (585).png" alt="UCL workspace selection screen after login"><figcaption></figcaption></figure>
 
 
 
@@ -76,17 +76,17 @@ When you first log in to UCL, a workspace titled "My Workspace" is created by de
 
 * After selecting your workspace, you will be directed to the **Connect** Page in your Dashboard, you can **Choose the Apps You Need** along with viewing your selected apps and enabled actions.
 
-<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252F13eysHB9Hch1TspTI4vH%252Fimage.png%3Falt%3Dmedia%26token%3Daba8e5be-9d8e-4307-891f-baeb4f18e02d&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2cc731e6&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252F13eysHB9Hch1TspTI4vH%252Fimage.png%3Falt%3Dmedia%26token%3Daba8e5be-9d8e-4307-891f-baeb4f18e02d&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2cc731e6&#x26;sv=2" alt="UCL Connect page showing selected apps and enabled actions on the dashboard"><figcaption></figcaption></figure>
 
 > Actions represent the functions you can perform within each app.
 
 * From the **Connecting Existing Apps** button, browse and connect to any app available in UCL.
 
-<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FGQWhGe1JEY79C97okxzT%252Fimage.png%3Falt%3Dmedia%26token%3Dfed4ca5a-4f5a-4f38-ac35-b679349059f8&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=60aa427c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FGQWhGe1JEY79C97okxzT%252Fimage.png%3Falt%3Dmedia%26token%3Dfed4ca5a-4f5a-4f38-ac35-b679349059f8&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=60aa427c&#x26;sv=2" alt="UCL app catalog for browsing and connecting available apps"><figcaption></figcaption></figure>
 
 > You can select any app by checking the top-right box on the app and click on **Select Tools** to modify your action selection and then finalize this setup by clicking the **Confirm Action** button in the right-bottom.
 
-<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FJGp6o9nxDYMIMqjYxmSG%252Fimage.png%3Falt%3Dmedia%26token%3D1afcd3d7-3eb9-433c-be6e-72805fa6b882&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=324eef49&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://docs.fastn.ai/~gitbook/image?url=https%3A%2F%2F1255842839-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F3iSr2Tx8FvvuoLPncziH%252Fuploads%252FJGp6o9nxDYMIMqjYxmSG%252Fimage.png%3Falt%3Dmedia%26token%3D1afcd3d7-3eb9-433c-be6e-72805fa6b882&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=324eef49&#x26;sv=2" alt="UCL app selection panel with checkboxes, Select Tools, and Confirm Action buttons"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 UCL handles all OAuth and API token management in the background.
@@ -98,7 +98,7 @@ The **Embed** page on your UCL dashboard has step-by-step guides for a number of
 
 In this case, you can use the Fastn UCL \[GitHub Template Starter] for embedding UCL into your custom AI Agent.
 
-<figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (596).png" alt="UCL Embed page showing step-by-step guides for connecting AI clients"><figcaption></figcaption></figure>
 
 . ToWithin the first embedding step, we’ll focus on setting up your codebase environment where you can embed UCL easily, to ensure an easy-to-follow process, you can find an example environment repository to clone below:
 

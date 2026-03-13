@@ -86,19 +86,19 @@ You can get the pre-built activate, deactivate and configure flows from the flow
 
 This flow is used to activate your connected app (e.g., Slack). Once triggered, it transitions the integration into an active state.
 
-<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (257).png" alt="Activate flow template in the Fastn flow editor for enabling a connected app integration"><figcaption></figcaption></figure>
 
 ### Deactivate Flow
 
 This flow deactivates the app, disconnecting or disabling it as defined in your deactivation logic.
 
-<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (256).png" alt="Deactivate flow template in the Fastn flow editor for disabling a connected app integration"><figcaption></figcaption></figure>
 
 ### Configure Flow
 
 Use this flow to allow users to configure settings for the connected app. It can open a form or input model based on what you've defined in the configuration flow.
 
-<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (258).png" alt="Configure flow template in the Fastn flow editor for managing connected app settings"><figcaption></figcaption></figure>
 
 ## **4. Deploy to Live**
 

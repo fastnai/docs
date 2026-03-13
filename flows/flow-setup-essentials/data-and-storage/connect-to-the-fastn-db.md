@@ -8,7 +8,7 @@ description: >-
 
 Database elements can be added when building a flow and configured with an SQL query to perform database operations.
 
-<figure><img src="../../../.gitbook/assets/image (419).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (419).png" alt="Flow editor showing a database element added to a flow with SQL query configuration panel"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Since database flow elements allow users to add SQL queries, they can be used to create tables.
@@ -18,13 +18,13 @@ An alternative way of creating a table in the Fastn DB is to navigate to the Dat
 
 Click on the **Create Table** button here to create a new table in the database.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXesRvDtJTUVQbuLR5U1OirUdaTYCgkxI1B9qQ7CPlE6H6U3FpsFL_3r-pfIYcPgbS0pa6QLFrZ72ylgmTxV2-uNv77Gz4KT-Xg97cM0l3DKvGvbRIRpMWBoz3fHt685OJiQT6czuw?key=wOmYrIP-94JypD1X6n-sVQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXesRvDtJTUVQbuLR5U1OirUdaTYCgkxI1B9qQ7CPlE6H6U3FpsFL_3r-pfIYcPgbS0pa6QLFrZ72ylgmTxV2-uNv77Gz4KT-Xg97cM0l3DKvGvbRIRpMWBoz3fHt685OJiQT6czuw?key=wOmYrIP-94JypD1X6n-sVQ" alt="Fastn DB page in the Databases section with the Create Table button"><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOZzMOkDUTEuxosk9BzQG3E062u--IhgA23voZDtiD6_46cYLD5WsqMu8Cfp2qNJQU28-irZ9EINHmZYuf5DuT2bem6rHyEq3SqOk13lRlB1wq8DZ1RUmyspxRK_8L0dGZlIw1lA?key=wOmYrIP-94JypD1X6n-sVQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOZzMOkDUTEuxosk9BzQG3E062u--IhgA23voZDtiD6_46cYLD5WsqMu8Cfp2qNJQU28-irZ9EINHmZYuf5DuT2bem6rHyEq3SqOk13lRlB1wq8DZ1RUmyspxRK_8L0dGZlIw1lA?key=wOmYrIP-94JypD1X6n-sVQ" alt="Create Table form for defining table name and column structure in the Fastn DB"><figcaption></figcaption></figure>
 
 Next you can define the table structure by specifying the name of the table and defining its columns. Once you have entered all the necessary details, you can save the table configuration and see it added in the database.
 
-<figure><img src="../../../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (420).png" alt="Fastn DB interface showing a newly created table with its column definitions saved"><figcaption></figcaption></figure>
 
 ## Example: Storing Slack Messages in a Fastn Database
 

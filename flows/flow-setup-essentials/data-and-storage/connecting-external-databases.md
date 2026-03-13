@@ -25,7 +25,7 @@ There are two primary ways to add a database connection:
 
 
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFDQ92XdO2VwamznZ7woxwQ43jEZ39uWCDwJvH5DecjHYZ00z6FWMB9DPJ2rSeoyUrpovj7NGaV0I-wI38zlXGW12n2E34Emv2TtJumbKZpV5LE6p0Y0FeOjLZLlQOWipcgOV5ew?key=aWFNWdC9I0x6b7wkwYQbDg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFDQ92XdO2VwamznZ7woxwQ43jEZ39uWCDwJvH5DecjHYZ00z6FWMB9DPJ2rSeoyUrpovj7NGaV0I-wI38zlXGW12n2E34Emv2TtJumbKZpV5LE6p0Y0FeOjLZLlQOWipcgOV5ew?key=aWFNWdC9I0x6b7wkwYQbDg" alt="Databases page with Add New Database button and database type selection for PostgreSQL, MySQL, and Fastn DB"><figcaption></figcaption></figure>
 
 ### **Setting Up the Connection**
 
@@ -34,4 +34,4 @@ Once you’ve chosen the database type:
 * Fill in the required configuration fields (e.g., host, port, username, password, database name).
 * Click **Save** to finalize the connection.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcl-C3AwhQhnnG1KNQ0CcIeUfoLu2LFHiu8SgcpmNhUDrlwsO_KqUHzmDQq08uvcw8JmJthkoFd_pUvpTZbhbnsc1q0LfdcVqXJCva2_aGdWwsI41GW0d3TiEngSlAthpM7VicAJg?key=aWFNWdC9I0x6b7wkwYQbDg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcl-C3AwhQhnnG1KNQ0CcIeUfoLu2LFHiu8SgcpmNhUDrlwsO_KqUHzmDQq08uvcw8JmJthkoFd_pUvpTZbhbnsc1q0LfdcVqXJCva2_aGdWwsI41GW0d3TiEngSlAthpM7VicAJg?key=aWFNWdC9I0x6b7wkwYQbDg" alt="Database connection form with fields for host, port, username, password, and database name"><figcaption></figcaption></figure>
