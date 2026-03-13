@@ -75,6 +75,7 @@
 
 * [Library](resources/library/README.md)
   * [Tutorials](resources/library/tutorials/README.md)
+    * [Your First Embedded Integration Widget](resources/library/tutorials/your-first-embedded-integration-widget.md)
     * [Understanding Flow Types](resources/library/tutorials/understanding-flow-types/README.md)
       * [How to Set Up an Activation Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-an-activation-flow.md)
       * [How to Set Up a Selection Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-selection-flow.md)
