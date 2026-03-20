@@ -60,14 +60,14 @@ When Workflow is selected, a new **Trigger** section appears in the **left sideb
 
 * **Enable Custom Authentication** – Allow access with an `Authorization` header instead of `x-fastn-api-key`.
 * Uses the **fastnCustomAuth** flow for validation.
-* You can customize this authentication flow as needed. [Learn More](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md)
+* You can customize this authentication flow as needed. [Learn More](../../tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md)
 
 ### **Error Notification**
 
 <figure><img src="../../../.gitbook/assets/image (138).png" alt="Error Notification settings with toggle to forward errors to a notification flow like Slack"><figcaption></figcaption></figure>
 
 * **Enable Error Notification** – Forward errors to a notification flow (e.g., sending alerts to Slack).
-* You can customize this with the **fastnErrorNotification** flow. [Learn More](../../../resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-error-notification-flow.md)
+* You can customize this with the **fastnErrorNotification** flow. [Learn More](../../tutorials/flow-customization-and-operations/how-to-customize-your-error-notification-flow.md)
 
 ## 2. Visuals
 
@@ -78,4 +78,3 @@ The **Visuals** section customizes the flow editor interface.
 * **Enable Side Action Panel** – Displays a quick-access panel for drag-and-drop actions.
 * **Enable Flow MiniMap** – Adds a minimap to navigate large or complex flows.
 * **Activate Dark Mode** – Switches the editor to dark theme.
-

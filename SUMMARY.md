@@ -1,10 +1,12 @@
 # Table of contents
 
+## Customer-Facing Integrations
+
 ## Getting started
 
 * [About Fastn](README.md)
-  * [How Fastn Works](customer-facing-integrations/about-fastn/how-fastn-works.md)
-  * [Your First Automation](customer-facing-integrations/about-fastn/your-first-automation.md)
+  * [How Fastn Works](getting-started/about-fastn/how-fastn-works.md)
+  * [Your First Automation](getting-started/about-fastn/your-first-automation.md)
 
 ## Embedded integrations
 
@@ -37,6 +39,9 @@
 ## Flows
 
 * [Flow Setup Essentials](flows/flow-setup-essentials/README.md)
+  * [Flow Settings](flows/flow-setup-essentials/flow-settings/README.md)
+    * [Flow Step Settings](flows/flow-setup-essentials/flow-settings/flow-step-settings.md)
+    * [Using Templates](flows/flow-setup-essentials/flow-settings/using-templates.md)
   * [Designing a Flow](flows/flow-setup-essentials/designing-a-flow/README.md)
     * [Connectors](flows/flow-setup-essentials/designing-a-flow/connectors.md)
     * [Database](flows/flow-setup-essentials/designing-a-flow/database.md)
@@ -67,33 +72,36 @@
   * [Data & Storage](flows/flow-setup-essentials/data-and-storage/README.md)
     * [Connect to the Fastn DB](flows/flow-setup-essentials/data-and-storage/connect-to-the-fastn-db.md)
     * [Connecting External Databases](flows/flow-setup-essentials/data-and-storage/connecting-external-databases.md)
-  * [Flow Settings](flows/flow-setup-essentials/flow-settings/README.md)
-    * [Flow Step Settings](flows/flow-setup-essentials/flow-settings/flow-step-settings.md)
-    * [Using Templates](flows/flow-setup-essentials/flow-settings/using-templates.md)
+* [Quick Start Guide](flows/quick-start-guide.md)
+* [Debugging & Troubleshooting](flows/debugging-and-troubleshooting.md)
+* [Scheduling Flows](flows/scheduling-flows.md)
+* [Tutorials](flows/tutorials/README.md)
+  * [Understanding Flow Types](flows/tutorials/understanding-flow-types/README.md)
+    * [How to Set Up an Activation Flow?](flows/tutorials/understanding-flow-types/how-to-set-up-an-activation-flow.md)
+    * [How to Set Up a Selection Flow?](flows/tutorials/understanding-flow-types/how-to-set-up-a-selection-flow.md)
+    * [How to Set Up a Configuration Flow in Fastn?](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/README.md)
+      * [Setting up a Configuration Flow with Static Selection Options](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-static-selection-options.md)
+      * [Setting up a Configuration Flow with Dynamic Selection Options](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-dynamic-selection-options.md)
+      * [Setting up a Configuration Flow with Custom Selection Options](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-custom-selection-options.md)
+      * [Setting up a Configuration Flow with Mapping Selection Options](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-mapping-selection-options.md)
+      * [Setting up Field-Level Validation in Configuration Flows](flows/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-field-level-validation-in-configuration-flows.md)
+  * [Flow Customization & Operations](flows/tutorials/flow-customization-and-operations/README.md)
+    * [How to Customize your Authentication Flow?](flows/tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md)
+    * [How to Customize Your Error Notification Flow?](flows/tutorials/flow-customization-and-operations/how-to-customize-your-error-notification-flow.md)
+    * [How to Customize Success and Error Messages UI in Flows?](flows/tutorials/flow-customization-and-operations/how-to-customize-success-and-error-messages-ui-in-flows.md)
+    * [How to Manage Multiple App Connections Together?](flows/tutorials/flow-customization-and-operations/how-to-manage-multiple-app-connections-together.md)
+    * [How to Set Up Pagination in your Flow?](flows/tutorials/flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md)
+  * [Data Migrations](flows/tutorials/data-migrations/README.md)
+    * [Setting Up a Google Drive to GCS Migration - Widget](flows/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-widget.md)
+    * [Setting Up an AWS Redshift to GCS Migration - Widget](flows/tutorials/data-migrations/setting-up-an-aws-redshift-to-gcs-migration-widget.md)
+    * [Setting Up a Google Drive to GCS Migration Flow](flows/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-flow.md)
+    * [Setting Up a Redshift to GCS Migration Flow](flows/tutorials/data-migrations/setting-up-a-redshift-to-gcs-migration-flow.md)
+* [API Reference](flows/api-reference.md)
+
+## Resources
 
 ## Tutorials & resources
 
 * [Library](resources/library/README.md)
-  * [Tutorials](resources/library/tutorials/README.md)
-    * [Understanding Flow Types](resources/library/tutorials/understanding-flow-types/README.md)
-      * [How to Set Up an Activation Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-an-activation-flow.md)
-      * [How to Set Up a Selection Flow?](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-selection-flow.md)
-      * [How to Set Up a Configuration Flow in Fastn?](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/README.md)
-        * [Setting up a Configuration Flow with Static Selection Options](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-static-selection-options.md)
-        * [Setting up a Configuration Flow with Dynamic Selection Options](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-dynamic-selection-options.md)
-        * [Setting up a Configuration Flow with Custom Selection Options](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-custom-selection-options.md)
-        * [Setting up a Configuration Flow with Mapping Selection Options](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-a-configuration-flow-with-mapping-selection-options.md)
-        * [Setting up Field-Level Validation in Configuration Flows](resources/library/tutorials/understanding-flow-types/how-to-set-up-a-configuration-flow-in-fastn/setting-up-field-level-validation-in-configuration-flows.md)
-    * [Flow Customization & Operations](resources/library/tutorials/flow-customization-and-operations/README.md)
-      * [How to Customize your Authentication Flow?](resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-authentication-flow.md)
-      * [How to Customize Your Error Notification Flow?](resources/library/tutorials/flow-customization-and-operations/how-to-customize-your-error-notification-flow.md)
-      * [How to Customize Success and Error Messages UI in Flows?](resources/library/tutorials/flow-customization-and-operations/how-to-customize-success-and-error-messages-ui-in-flows.md)
-      * [How to Manage Multiple App Connections Together?](resources/library/tutorials/flow-customization-and-operations/how-to-manage-multiple-app-connections-together.md)
-      * [How to Set Up Pagination in your Flow?](resources/library/tutorials/flow-customization-and-operations/how-to-set-up-pagination-in-your-flow.md)
-    * [Data Migrations](resources/library/tutorials/data-migrations/README.md)
-      * [Setting Up a Google Drive to GCS Migration - Widget](resources/library/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-widget.md)
-      * [Setting Up an AWS Redshift to GCS Migration - Widget](resources/library/tutorials/data-migrations/setting-up-an-aws-redshift-to-gcs-migration-widget.md)
-      * [Setting Up a Google Drive to GCS Migration Flow](resources/library/tutorials/data-migrations/setting-up-a-google-drive-to-gcs-migration-flow.md)
-      * [Setting Up a Redshift to GCS Migration Flow](resources/library/tutorials/data-migrations/setting-up-a-redshift-to-gcs-migration-flow.md)
   * [FAQs](resources/library/faqs.md)
   * [Glossary](resources/library/glossary.md)

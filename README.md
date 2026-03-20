@@ -8,8 +8,6 @@ Customers expect your product to work seamlessly with the tools they already rel
 
 Fastn provides access to over 15000+ tools through its extensive library of connectors, enabling your AI agents to automate and orchestrate workflows across a vast ecosystem of SaaS apps and services.
 
-
-
 **With Fastn, you get:**
 
 * **A fully branded integration portal**\
@@ -20,8 +18,6 @@ Fastn provides access to over 15000+ tools through its extensive library of conn
   Support every customer with isolated environments, role-based access, and per-tenant customization out of the box.
 * **Built-in monitoring and visibility**\
   Track integration activity, catch issues early, and get clear insights into how everything’s performing.
-
-
 
 ### Integrate Instantly with 1000+ Connectors
 
@@ -129,13 +125,11 @@ Fastn makes two-way syncing seamless, whether it’s time-based or triggered by 
 
 <summary><strong>Agent-Based Tool Invocation</strong></summary>
 
-Fastn lets AI agents trigger actions or fetch data from third-party tools using natural language.&#x20;
+Fastn lets AI agents trigger actions or fetch data from third-party tools using natural language.
 
 For example, an agent can create a Google Doc, insert content, and share it—automatically, with no manual steps needed.
 
 ![AI agent creating a Google Doc, inserting content, and sharing it automatically](<.gitbook/assets/image (353).png>)
-
-
 
 </details>
 
@@ -149,11 +143,8 @@ Fastn gives you real-time visibility into all your integrations and platform act
 
 </details>
 
-
-
 Jump into **Your First Automation** to start building with Fastn.
 
-{% content-ref url="customer-facing-integrations/about-fastn/your-first-automation.md" %}
-[your-first-automation.md](customer-facing-integrations/about-fastn/your-first-automation.md)
+{% content-ref url="getting-started/about-fastn/your-first-automation.md" %}
+[your-first-automation.md](getting-started/about-fastn/your-first-automation.md)
 {% endcontent-ref %}
-

@@ -119,3 +119,67 @@ Indicates a successful OAuth or API connection to a third-party app. Once a conn
 ### **Codespaces (GitHub)**
 
 A browser-based cloud development environment that allows users to run Fastn UCL integration projects without needing to install dependencies locally.
+
+### **Activation Flow**
+
+A flow that runs once when a connector widget is first enabled for a tenant. Initializes webhooks, templates, or database tables for that tenant.
+
+### **Configuration Flow**
+
+A flow that defines what settings appear in your widget's UI — dropdowns, file pickers, text fields. After building one, you must link it in Settings → Configurations. Without this linking step, your widget shows no configuration options.
+
+### **Connector**
+
+A step added from the Connection tab in the flow builder. Connects your flow to external apps like Slack, HubSpot, or Salesforce. Not to be confused with the Connectors section in the left-hand menu, which manages authenticated app connections and credentials.
+
+### **Custom Code**
+
+A step under the Control tab in the flow builder. Lets you write JavaScript or C# for operations other components can't handle — null checks, string formatting, custom logic.
+
+### **Deploy**
+
+Publishes your flow so it's callable via API or webhook. The Deploy button is in the top-right of the flow builder. Deployed flows show status "Live." Flows with unpublished changes show "Changes Pending."
+
+### **Fixed vs Dynamic**
+
+Two ways to set a field value in a component step. Fixed values are hardcoded at design time (e.g., channel = "#alerts"). Dynamic values are mapped from a previous step's output and change per execution.
+
+### **Logger**
+
+A step under the Control tab in the flow builder. Logs data at any point in your flow so you can inspect what's passing between steps. Useful during development — remove before production.
+
+### **Loop**
+
+A step under the Control tab. Processes data iteratively by running the steps inside it once per item in a collection.
+
+### **Refresh vs Rerun**
+
+Two actions in the Logs section. Refresh reloads the log list to show new entries — it does not re-execute anything. Rerun re-executes a previous flow with the same input, creating a new log entry.
+
+### **Secrets**
+
+Encrypted project-level values such as API keys and tokens. Managed under Settings → Secrets. Never exposed in logs or flow output.
+
+### **Selection Flow**
+
+A flow that fetches and returns a list of options to populate dropdowns in a Configuration Flow. For example, a Selection Flow might call an API to retrieve Slack channels, which the Configuration Flow then displays as a dropdown.
+
+### **State**
+
+A key-value store that persists data across loop iterations within a single flow execution. Use State when you need a counter or accumulator inside a Loop — regular variables don't update mid-loop.
+
+### **Switch**
+
+A step under the Control tab. Routes your flow to different branches based on conditions. If no cases match, the flow skips all branches silently — always add a default case.
+
+### **Tenant**
+
+An end-user in a multi-tenant setup. Each tenant has isolated connectors, data, and execution logs. Identified by the x-fastn-space-tenantid header. Managed under Settings → Tenants.
+
+### **Test**
+
+The button in the top-right of the flow builder. Runs your flow with test input without deploying it. Use this to verify your flow works before clicking Deploy.
+
+### **Trigger**
+
+The starting point of a flow. Added from the Trigger tab in the flow builder. The default trigger type is "New API Request" (labeled "Real Time"). Webhooks and schedules are managed separately under the Triggers section in the left-hand menu.
