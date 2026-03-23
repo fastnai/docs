@@ -24,8 +24,8 @@
 ## AI agent integrations (UCL)
 
 * [Getting Started](ucl-unified-context-layer/getting-started/README.md)
+  * [Embedding UCL onto your AI Agent](ucl-unified-context-layer/getting-started/about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md)
   * [About Unified Context Layer](ucl-unified-context-layer/getting-started/about-unified-context-layer/README.md)
-    * [Embedding UCL onto your AI Agent](ucl-unified-context-layer/getting-started/about-unified-context-layer/embedding-ucl-onto-your-ai-agent.md)
     * [Multitenancy](ucl-unified-context-layer/getting-started/about-unified-context-layer/multitenancy.md)
     * [Defining an MCP Server](ucl-unified-context-layer/getting-started/about-unified-context-layer/defining-an-mcp-server.md)
     * [Creating a Custom Tool](ucl-unified-context-layer/getting-started/about-unified-context-layer/creating-a-custom-tool.md)
