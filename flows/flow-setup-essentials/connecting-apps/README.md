@@ -1,3 +1,9 @@
+---
+description: >-
+  Connect your Fastn flows to external apps, APIs, and databases using prebuilt
+  or custom connectors with managed authentication.
+---
+
 # Connecting Apps
 
 Connectors in Fastn let you connect your flows with external apps, APIs, and databases, turning your automations into powerful, integrated systems. They act as bridges that move data in and out of Fastn securely and efficiently.

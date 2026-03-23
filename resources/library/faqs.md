@@ -1,3 +1,9 @@
+---
+description: >-
+  Answers to common questions about Fastn flows, debugging, data syncs,
+  connector filtering, and integration best practices.
+---
+
 # FAQs
 
 ## Flow Fundamentals
@@ -91,7 +97,6 @@ Log synced record IDs or counts to the Fastn database to track actual progress a
 
 <summary>What date format should I use in filters or payloads?</summary>
 
-Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn’s built-in transformations to convert it before syncing.
+Use ISO 8601 format (`yyyy-mm-dd`). If your source data is in another format (e.g. Unix timestamp), use Fastn's built-in transformations to convert it before syncing.
 
 </details>
-
