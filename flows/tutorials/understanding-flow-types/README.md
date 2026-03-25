@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn about Fastn flow types including activation, selection, and
+  configuration flows for building embedded integration widgets.
+---
+
 # Understanding Flow Types
 
 Flows are the backbone of automation and configuration in **Fastn**.
@@ -8,7 +14,7 @@ Flows are the backbone of automation and configuration in **Fastn**.
 
 #### &#x20;Before You Begin
 
-Make sure you’re familiar with:
+Make sure you're familiar with:
 
 {% content-ref url="../../../../flows/flow-setup-essentials/" %}
 [flow-setup-essentials](../../../../flows/flow-setup-essentials/)

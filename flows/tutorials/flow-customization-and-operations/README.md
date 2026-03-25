@@ -1,3 +1,9 @@
+---
+description: >-
+  Customize Fastn flow behavior for authentication, error handling, multi-app
+  connections, and pagination in your automation workflows.
+---
+
 # Flow Customization & Operations
 
 Flow customizations let you tailor how your automation behaves during authentication, error handling, connection management, and large data operations.&#x20;

@@ -1,3 +1,9 @@
+---
+description: >-
+  Store and manage data in your Fastn flows using the built-in database or
+  external databases like PostgreSQL and Redshift.
+---
+
 # Data & Storage
 
 Data handling in Fastn lets you connect, store, and manage data within your flows using the Fastn DB or any external database. Whether you're storing Slack messages, running SQL queries, or connecting to cloud databases like PostgreSQL or Redshift, Fastn gives you full control over your data pipeline.

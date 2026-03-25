@@ -1,3 +1,9 @@
+---
+description: >-
+  Tutorials, glossary, and FAQs for Fastn's embedded integration platform, AI
+  agent builder, and MCP server gateway.
+---
+
 # Tutorials & resources
 
 Your central hub for learning and support. Explore tutorials, key terminology, and common questions to understand Fastn's AI Agent Builder and MCP Server gateway.

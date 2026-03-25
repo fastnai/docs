@@ -1,3 +1,9 @@
+---
+description: >-
+  Manage how your Fastn flows, connectors, and widgets move between environments
+  using releases and pipelines.
+---
+
 # Deployment
 
 The **Deployment** section in your Fastn Profile settings helps you manage how your flows, connectors, widgets, and configurations are moved between environments.
