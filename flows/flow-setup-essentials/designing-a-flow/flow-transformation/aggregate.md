@@ -6,7 +6,7 @@ description: Compute summarized or aggregated values from data.
 
 The **Aggregate** component allows you to collect or group multiple items from a list into a single aggregated output. It is useful when you want to combine, summarize, or bundle list items based on a defined condition or range.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt="Aggregate component card showing its description: Aggregate data based on a condition"><figcaption></figcaption></figure>
 
 ### **When to Use the Aggregate Component?**
 
@@ -25,9 +25,9 @@ You want to send a daily summary of the **5 most recent Zendesk support tickets*
 ### **Step 1: Add the Aggregate Component**
 
 * Insert the **Aggregate** component after the step that returns a list of items.
-* In this example, add Aggregate **after the “Get Tickets” step from Zendesk**.
+* In this example, add Aggregate **after the "Get Tickets" step from Zendesk**.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt="Flow builder showing a Zendesk Get Ticket connector step with its Select, Connect, Configure, and Test panel"><figcaption></figcaption></figure>
 
 > **Example:**\
 > Step before Aggregate: **Zendesk – Get Tickets** (returns a list of ticket objects)
@@ -36,7 +36,7 @@ You want to send a daily summary of the **5 most recent Zendesk support tickets*
 
 Inside the Aggregate component, you will configure the following:
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt="Aggregate step configuration panel showing List, Output Field, Aggregate Strategy, and Aggregate Fields Strategy settings"><figcaption></figcaption></figure>
 
 #### **1. List**
 
