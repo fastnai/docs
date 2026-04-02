@@ -1,4 +1,5 @@
 ---
+title: "Fastn docs — embedded integration platform for AI agents"
 description: >-
   Connect AI agents and SaaS applications to 250+ enterprise tools with Fastn's
   embedded integration platform. Managed OAuth, multi-tenant architecture, and
